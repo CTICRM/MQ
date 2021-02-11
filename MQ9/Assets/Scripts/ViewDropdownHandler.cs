@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class ViewDropdownHandler : MonoBehaviour
 {
-    GameObject map;
-    //bool mapOn;
+	GameObject map;
+	//bool mapOn;
     // Start is called before the first frame update
     void Start()
     {
-        map = GameObject.Find("Compass Image");
-        //mapOn = true;
+		map = GameObject.Find("Compass Image");
+		//mapOn = true;
     }
 }
