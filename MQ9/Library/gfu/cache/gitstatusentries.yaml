@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
+<<<<<<< Updated upstream
   lastUpdatedAtString: 2021-02-15T20:04:11.344-06:00
   initializedAtString: 2021-02-15T20:04:11.344-06:00
   entries:
@@ -79,6 +80,20 @@ MonoBehaviour:
   - path: MQ9\Library\Artifacts\5c\5c9c253c8377c03c57ac0fbbc460ff23
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\5c\5c9c253c8377c03c57ac0fbbc460ff23
     projectPath: Library\Artifacts\5c\5c9c253c8377c03c57ac0fbbc460ff23
+=======
+  lastUpdatedAtString: 2021-02-15T18:52:29.171-06:00
+  initializedAtString: 2021-02-15T17:51:51.198-06:00
+  entries:
+  - path: MQ9\Assets\Scenes\Main.unity
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Scenes\Main.unity
+    projectPath: Assets\Scenes\Main.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\ArtifactDB
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+>>>>>>> Stashed changes
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -86,6 +101,7 @@ MonoBehaviour:
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\5c\5cd4c727f0b5b117fbe91ebc7de44cc2
     projectPath: Library\Artifacts\5c\5cd4c727f0b5b117fbe91ebc7de44cc2
     originalPath: 
+<<<<<<< Updated upstream
     indexStatus: 1
     workTreeStatus: 1
   - path: MQ9\Library\Artifacts\63\63384fd11f4833160133e97e375640da
@@ -109,6 +125,13 @@ MonoBehaviour:
   - path: MQ9\Library\Artifacts\a1\a182808aef6e193e92ac5f9462bd7105
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\a1\a182808aef6e193e92ac5f9462bd7105
     projectPath: Library\Artifacts\a1\a182808aef6e193e92ac5f9462bd7105
+=======
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: MQ9\Library\Artifacts\43\4351d4d1ad4513e1aeae8d3ca4f89e6e
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\43\4351d4d1ad4513e1aeae8d3ca4f89e6e
+    projectPath: Library\Artifacts\43\4351d4d1ad4513e1aeae8d3ca4f89e6e
+>>>>>>> Stashed changes
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -118,6 +141,7 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+<<<<<<< Updated upstream
   - path: MQ9\Library\Artifacts\b6\b6752ac7ab3441783c86bbc3d299aedc
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\b6\b6752ac7ab3441783c86bbc3d299aedc
     projectPath: Library\Artifacts\b6\b6752ac7ab3441783c86bbc3d299aedc
@@ -151,6 +175,11 @@ MonoBehaviour:
   - path: MQ9\Library\Artifacts\e7\e7e9917a1eb3a75fd58cd42fa6945834
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\e7\e7e9917a1eb3a75fd58cd42fa6945834
     projectPath: Library\Artifacts\e7\e7e9917a1eb3a75fd58cd42fa6945834
+=======
+  - path: MQ9\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+>>>>>>> Stashed changes
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -190,6 +219,7 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+<<<<<<< Updated upstream
   - path: MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Documentation~\CharacterRig.md
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Documentation~\CharacterRig.md
     projectPath: Library\PackageCache\com.unity.2d.animation@4.2.6\Documentation~\CharacterRig.md
@@ -439,6 +469,23 @@ MonoBehaviour:
   - path: MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\CopyToolbar.uxml
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\CopyToolbar.uxml
     projectPath: Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\CopyToolbar.uxml
+=======
+  - path: MQ9\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\SourceAssetDB
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+>>>>>>> Stashed changes
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -454,6 +501,7 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+<<<<<<< Updated upstream
   - path: MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\CopyToolbarStyle.uss.meta
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\CopyToolbarStyle.uss.meta
     projectPath: Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\CopyToolbarStyle.uss.meta
@@ -487,6 +535,11 @@ MonoBehaviour:
   - path: MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\GenerateGeometryPanelStyle.uss
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\GenerateGeometryPanelStyle.uss
     projectPath: Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\GenerateGeometryPanelStyle.uss
+=======
+  - path: MQ9\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+>>>>>>> Stashed changes
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -494,6 +547,7 @@ MonoBehaviour:
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\GenerateGeometryPanelStyle.uss.meta
     projectPath: Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\GenerateGeometryPanelStyle.uss.meta
     originalPath: 
+<<<<<<< Updated upstream
     indexStatus: 0
     workTreeStatus: 3
   - path: MQ9\Library\PackageCache\com.unity.2d.animation@4.2.6\Editor\Assets\SkinningModule\GenerateWeightsPanel.uxml
@@ -17115,5 +17169,7 @@ MonoBehaviour:
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-f74402dcdcbcc2c45b08b2048a1561b0
     projectPath: Temp\UnityTempFile-f74402dcdcbcc2c45b08b2048a1561b0
     originalPath: 
+=======
+>>>>>>> Stashed changes
     indexStatus: 1
     workTreeStatus: 1

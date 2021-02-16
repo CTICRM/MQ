@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< Updated upstream
   lastUpdatedAtString: 2021-02-15T20:04:04.914-06:00
   initializedAtString: 2021-02-15T20:04:04.914-06:00
+=======
+  lastUpdatedAtString: 2021-02-15T18:52:29.495-06:00
+  initializedAtString: 2021-02-15T17:51:50.100-06:00
+>>>>>>> Stashed changes
   currentGitRemote:
     name: origin
     url: https://github.com/CTICRM/MQ.git
