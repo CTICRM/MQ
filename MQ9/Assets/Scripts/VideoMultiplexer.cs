@@ -128,7 +128,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseED_SATCOMOne_Chosen() {
 		if (noseED_SATCOMOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_SATCOMOne.GetComponent<Image>().color = blue;
@@ -139,7 +139,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseED_SATCOMTwo_Chosen() {
 		if (noseED_SATCOMTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_SATCOMTwo.GetComponent<Image>().color = blue;
@@ -150,7 +150,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseED_CBandOne_Chosen() {
 		if (noseED_CBandOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_CBandOne.GetComponent<Image>().color = blue;
@@ -161,7 +161,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseED_CBandTwo_Chosen() {
 		if (noseED_CBandTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_CBandTwo.GetComponent<Image>().color = blue;
@@ -172,7 +172,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseED_CBandThree_Chosen() {
 		if (noseED_CBandThree.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_CBandThree.GetComponent<Image>().color = blue;
@@ -183,7 +183,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseED_COLUPPERLOSOne_Chosen() {
 		if (noseED_COLUPPERLOSOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLUPPERLOSOne.GetComponent<Image>().color = blue;
@@ -194,7 +194,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseED_COLUPPERLOSTwo_Chosen() {
 		if (noseED_COLUPPERLOSTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLUPPERLOSTwo.GetComponent<Image>().color = blue;
@@ -205,7 +205,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseED_COLLOWERLOSOne_Chosen() {
 		if (noseED_COLLOWERLOSOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLLOWERLOSOne.GetComponent<Image>().color = blue;
@@ -216,7 +216,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseED_COLLOWERLOSTwo_Chosen() {
 		if (noseED_COLLOWERLOSTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLLOWERLOSTwo.GetComponent<Image>().color = blue;
@@ -227,7 +227,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseIR_SATCOMOne_Chosen() {
 		if (noseIR_SATCOMOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_SATCOMOne.GetComponent<Image>().color = white;
@@ -238,7 +238,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseIR_SATCOMTwo_Chosen() {
 		if (noseIR_SATCOMTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_SATCOMTwo.GetComponent<Image>().color = white;
@@ -249,7 +249,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseIR_CBandTwo_Chosen() {
 		if (noseIR_CBandTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_CBandTwo.GetComponent<Image>().color = white;
@@ -260,7 +260,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseIR_CBandThree_Chosen() {
 		if (noseIR_CBandThree.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_CBandThree.GetComponent<Image>().color = white;
@@ -271,7 +271,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseIR_COLUPPERLOSOne_Chosen() {
 		if (noseIR_COLUPPERLOSOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLUPPERLOSOne.GetComponent<Image>().color = white;
@@ -282,7 +282,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseIR_COLUPPERLOSTwo_Chosen() {
 		if (noseIR_COLUPPERLOSTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLUPPERLOSTwo.GetComponent<Image>().color = white;
@@ -293,18 +293,18 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void noseIR_COLLOWERLOSOne_Chosen() {
 		if (noseIR_COLLOWERLOSOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLLOWERLOSOne.GetComponent<Image>().color = white;
 			noseIR_COLLOWERLOSOne.GetComponent<Image>().color = blue;
-			mtsB_COLLOWERLOSOne.GetComponent<Image>().color = white
+            mtsB_COLLOWERLOSOne.GetComponent<Image>().color = white;
 		}
 	}
 	
 	public void noseIR_COLLOWERLOSTwo_Chosen() {
 		if (noseIR_COLLOWERLOSTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLLOWERLOSTwo.GetComponent<Image>().color = white;
@@ -315,7 +315,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void mtsB_SATCOMOne_Chosen() {
 		if (mtsB_SATCOMOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_SATCOMOne.GetComponent<Image>().color = white;
@@ -326,7 +326,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void mtsB_SATCOMTwo_Chosen() {
 		if (mtsB_SATCOMTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_SATCOMTwo.GetComponent<Image>().color = white;
@@ -337,7 +337,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void mtsB_CBandOne_Chosen() {
 		if (mtsB_CBandOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_CBandOne.GetComponent<Image>().color = white;
@@ -348,7 +348,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void mtsB_CBandTwo_Chosen() {
 		if (mtsB_CBandTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_CBandTwo.GetComponent<Image>().color = white;
@@ -359,7 +359,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void mtsB_CBandThree_Chosen() {
 		if (mtsB_CBandThree.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_CBandThree.GetComponent<Image>().color = white;
@@ -370,7 +370,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void mtsB_COLUPPERLOSOne_Chosen() {
 		if (mtsB_COLUPPERLOSOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLUPPERLOSOne.GetComponent<Image>().color = white;
@@ -381,7 +381,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void mtsB_COLUPPERLOSTwo_Chosen() {
 		if (mtsB_COLUPPERLOSTwo.GetComponent<Image>().color == blue) {
-			break;
+		
 		}
 		else {
 			noseED_COLUPPERLOSTwo.GetComponent<Image>().color = white;
@@ -392,7 +392,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void mtsB_COLLOWERLOSOne_Chosen() {
 		if (mtsB_COLLOWERLOSOne.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLLOWERLOSOne.GetComponent<Image>().color = white;
@@ -403,7 +403,7 @@ public class VideoMultiplexer : MonoBehaviour
 	
 	public void mtsB_COLLOWERLOSTwo_Chosen() {
 		if (mtsB_COLLOWERLOSTwo.GetComponent<Image>().color == blue) {
-			break;
+			
 		}
 		else {
 			noseED_COLLOWERLOSTwo.GetComponent<Image>().color = white;
