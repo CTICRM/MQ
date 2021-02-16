@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-02-15T18:52:29.521-06:00
-  initializedAtString: 2021-02-15T17:51:51.230-06:00
+  lastUpdatedAtString: 2021-02-15T21:21:59.933-06:00
+  initializedAtString: 2021-02-15T21:12:41.469-06:00
   localBranches:
   - name: main
     tracking: origin/main
@@ -24,6 +24,8 @@ MonoBehaviour:
   - name: origin/main
     tracking: '[None]'
   - name: origin/TestBranch
+    tracking: '[None]'
+  - name: origin/Update-Tracker
     tracking: '[None]'
   remotes:
   - name: origin
@@ -55,6 +57,7 @@ MonoBehaviour:
     - Values:
       - main
       - TestBranch
+      - Update-Tracker
     subKeyValues:
     - Values:
       - name: main
@@ -63,6 +66,11 @@ MonoBehaviour:
           url: https://github.com/CTICRM/MQ.git
         trackingBranch: 
       - name: TestBranch
+        remote:
+          name: origin
+          url: https://github.com/CTICRM/MQ.git
+        trackingBranch: 
+      - name: Update-Tracker
         remote:
           name: origin
           url: https://github.com/CTICRM/MQ.git
