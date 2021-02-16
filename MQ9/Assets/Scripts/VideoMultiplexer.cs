@@ -70,7 +70,7 @@ public class VideoMultiplexer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		currHUDActive = "HUD -> INT1 (SATCOM)";
+		currHUDActive = "HUD -> EXT2";
 		currDVRActive = "DVR -> HUD";
     }
 	
@@ -371,6 +371,64 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	void Update() {
+		if (hudIntOne_SATCOM.activeSelf == true) {
+			currHUDActive = "HUD -> INT1 (SATCOM)";
+		}
+		else if (hudIntTwo_SATCOM.activeSelf == true) {
+			currHUDActive = "HUD -> INT2 (SATCOM)";
+		}
+		else if (hudExtTwo.activeSelf == true) {
+			currHUDActive = "HUD -> EXT2";
+		}
+		else if (hudTxOne.activeSelf == true) {
+			currHUDActive = "HUD -> TX1";
+		}
+		else if (hudTxTwo.activeSelf == true) {
+			currHUDActive = "HUD -> TX2";
+		}
+		else if (hudIntOne_COLUPPERLOS.activeSelf == true) {
+			currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
+		}
+		else if (hudIntTwo_COLUPPERLOS.activeSelf == true) {
+			currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
+		}
+		else if (hudIntOne_COLLOWERLOS.activeSelf == true) {
+			currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
+		}
+		else if (hudIntTwo_COLLOWERLOS.activeSelf == true) {
+			currHUDActive = "HUD -> INTw (COL LOWER LOS)";
+		}
+		
+		if (dvrIntOne_SATCOM.activeSelf == true) {
+			currDVRActive = "DVR -> INT1 (SATCOM)";
+		}
+		else if (dvrIntTwo_SATCOM.activeSelf == true) {
+			currDVRActive = "DVR -> INT2 (SATCOM)";
+		}
+		else if (dvrExtTwo.activeSelf == true) {
+			currDVRActive = "DVR -> EXT2";
+		}
+		else if (dvrTxOne.activeSelf == true) {
+			currDVRActive = "DVR -> TX1";
+		}
+		else if (dvrTxTwo.activeSelf == true) {
+			currDVRActive = "DVR -> TX2";
+		}
+		else if (dvrIntOne_COLUPPERLOS.activeSelf == true) {
+			currDVRActive = "DVR -> INT1 (COL UPPER LOS)";
+		}
+		else if (dvrIntTwo_COLUPPERLOS.activeSelf == true) {
+			currDVRActive = "DVR -> INT2 (COL UPPER LOS)";
+		}
+		else if (dvrIntOne_COLLOWERLOS.activeSelf == true) {
+			currDVRActive = "DVR -> INT1 (COL LOWER LOS)";
+		}
+		else if (dvrIntTwo_COLLOWERLOS.activeSelf == true) {
+			currDVRActive = "DVR -> INT2 (COL LOWER LOS)";
+		}
+	}
+	
 	public void intOne_SATCOM_Wait() {
 		intOne_SATCOM.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT2 (SATCOM)" && currDVRActive != "DVR -> INT2 (SATCOM)") {
@@ -620,955 +678,1182 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
-	// Resume from here
 	public void txOne_Wait() {
-		intOne_SATCOM.GetComponent<Image>().color = offGray;
-		intTwo_SATCOM.GetComponent<Image>().color = offGray;
-		extTwo.GetComponent<Image>().color = offGray;
 		txOne.GetComponent<Image>().color = waitingYellow;
-		txTwo.GetComponent<Image>().color = offGray;
-		intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-		intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-		intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-		intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (SATCOM)" && currDVRActive == "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (SATCOM)" && currDVRActive != "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (SATCOM)" && currDVRActive == "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> EXT2" && currDVRActive != "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> EXT2" && currDVRActive == "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			extTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX2" && currDVRActive != "HUD -> TX2") {
+			txTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX2" && currDVRActive == "HUD -> TX2") {
+			txTwo.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			txTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)" && currDVRActive != "HUD -> INT1 (COL UPPER LOS)") {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL UPPER LOS)" && currDVRActive == "HUD -> INT1 (COL UPPER LOS)") {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)" && currDVRActive != "HUD -> INT2 (COL UPPER LOS)") {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL UPPER LOS)" && currDVRActive == "HUD -> INT2 (COL UPPER LOS)") {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)" && currDVRActive != "HUD -> INT1 (COL LOWER LOS)") {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL LOWER LOS)" && currDVRActive == "HUD -> INT1 (COL LOWER LOS)") {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL LOWER LOS)" && currDVRActive != "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL LOWER LOS)" && currDVRActive == "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		}
 	}
 	
 	public void txTwo_Wait() {
-		intOne_SATCOM.GetComponent<Image>().color = offGray;
-		intTwo_SATCOM.GetComponent<Image>().color = offGray;
-		extTwo.GetComponent<Image>().color = offGray;
-		txOne.GetComponent<Image>().color = offGray;
 		txTwo.GetComponent<Image>().color = waitingYellow;
-		intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-		intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-		intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-		intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (SATCOM)" && currDVRActive == "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (SATCOM)" && currDVRActive != "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (SATCOM)" && currDVRActive == "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> EXT2" && currDVRActive != "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> EXT2" && currDVRActive == "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			extTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX1" && currDVRActive != "HUD -> TX1") {
+			txOne.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX1" && currDVRActive == "HUD -> TX1") {
+			txOne.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			txOne.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)" && currDVRActive != "HUD -> INT1 (COL UPPER LOS)") {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL UPPER LOS)" && currDVRActive == "HUD -> INT1 (COL UPPER LOS)") {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)" && currDVRActive != "HUD -> INT2 (COL UPPER LOS)") {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL UPPER LOS)" && currDVRActive == "HUD -> INT2 (COL UPPER LOS)") {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)" && currDVRActive != "HUD -> INT1 (COL LOWER LOS)") {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL LOWER LOS)" && currDVRActive == "HUD -> INT1 (COL LOWER LOS)") {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL LOWER LOS)" && currDVRActive != "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL LOWER LOS)" && currDVRActive == "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		}
 	}
 	
 	public void intOne_COLUPPERLOS_Wait() {
-		intOne_SATCOM.GetComponent<Image>().color = offGray;
-		intTwo_SATCOM.GetComponent<Image>().color = offGray;
-		extTwo.GetComponent<Image>().color = offGray;
-		txOne.GetComponent<Image>().color = offGray;
-		txTwo.GetComponent<Image>().color = offGray;
 		intOne_COLUPPERLOS.GetComponent<Image>().color = waitingYellow;
-		intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-		intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-		intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (SATCOM)" && currDVRActive == "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (SATCOM)" && currDVRActive != "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (SATCOM)" && currDVRActive == "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> EXT2" && currDVRActive != "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> EXT2" && currDVRActive == "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			extTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX1" && currDVRActive != "HUD -> TX1") {
+			txOne.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX1" && currDVRActive == "HUD -> TX1") {
+			txOne.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			txOne.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX2" && currDVRActive != "HUD -> TX2") {
+			txTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX2" && currDVRActive == "HUD -> TX2") {
+			txTwo.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			txTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)" && currDVRActive != "HUD -> INT2 (COL UPPER LOS)") {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL UPPER LOS)" && currDVRActive == "HUD -> INT2 (COL UPPER LOS)") {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)" && currDVRActive != "HUD -> INT1 (COL LOWER LOS)") {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL LOWER LOS)" && currDVRActive == "HUD -> INT1 (COL LOWER LOS)") {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL LOWER LOS)" && currDVRActive != "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL LOWER LOS)" && currDVRActive == "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		}
 	}
 	
 	public void intTwo_COLUPPERLOS_Wait() {
-		intOne_SATCOM.GetComponent<Image>().color = offGray;
-		intTwo_SATCOM.GetComponent<Image>().color = offGray;
-		extTwo.GetComponent<Image>().color = offGray;
-		txOne.GetComponent<Image>().color = offGray;
-		txTwo.GetComponent<Image>().color = offGray;
-		intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
 		intTwo_COLUPPERLOS.GetComponent<Image>().color = waitingYellow;
-		intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-		intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (SATCOM)" && currDVRActive == "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (SATCOM)" && currDVRActive != "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (SATCOM)" && currDVRActive == "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> EXT2" && currDVRActive != "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> EXT2" && currDVRActive == "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			extTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX1" && currDVRActive != "HUD -> TX1") {
+			txOne.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX1" && currDVRActive == "HUD -> TX1") {
+			txOne.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			txOne.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX2" && currDVRActive != "HUD -> TX2") {
+			txTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX2" && currDVRActive == "HUD -> TX2") {
+			txTwo.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			txTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)" && currDVRActive != "HUD -> INT1 (COL UPPER LOS)") {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL UPPER LOS)" && currDVRActive == "HUD -> INT1 (COL UPPER LOS)") {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)" && currDVRActive != "HUD -> INT1 (COL LOWER LOS)") {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL LOWER LOS)" && currDVRActive == "HUD -> INT1 (COL LOWER LOS)") {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL LOWER LOS)" && currDVRActive != "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL LOWER LOS)" && currDVRActive == "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		}
 	}
 	
 	public void intOne_COLLOWERLOS_Wait() {
-		intOne_SATCOM.GetComponent<Image>().color = offGray;
-		intTwo_SATCOM.GetComponent<Image>().color = offGray;
-		extTwo.GetComponent<Image>().color = offGray;
-		txOne.GetComponent<Image>().color = offGray;
-		txTwo.GetComponent<Image>().color = offGray;
-		intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-		intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
 		intOne_COLLOWERLOS.GetComponent<Image>().color = waitingYellow;
-		intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (SATCOM)" && currDVRActive == "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (SATCOM)" && currDVRActive != "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (SATCOM)" && currDVRActive == "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> EXT2" && currDVRActive != "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> EXT2" && currDVRActive == "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			extTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX1" && currDVRActive != "HUD -> TX1") {
+			txOne.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX1" && currDVRActive == "HUD -> TX1") {
+			txOne.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			txOne.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX2" && currDVRActive != "HUD -> TX2") {
+			txTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX2" && currDVRActive == "HUD -> TX2") {
+			txTwo.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			txTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)" && currDVRActive != "HUD -> INT1 (COL UPPER LOS)") {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL UPPER LOS)" && currDVRActive == "HUD -> INT1 (COL UPPER LOS)") {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)" && currDVRActive != "HUD -> INT2 (COL UPPER LOS)") {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL UPPER LOS)" && currDVRActive == "HUD -> INT2 (COL UPPER LOS)") {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL LOWER LOS)" && currDVRActive != "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL LOWER LOS)" && currDVRActive == "HUD -> INT2 (COL LOWER LOS)") {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+		}
+		else {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+		}
 	}
 	
 	public void intTwo_COLLOWERLOS_Wait() {
-		intOne_SATCOM.GetComponent<Image>().color = offGray;
-		intTwo_SATCOM.GetComponent<Image>().color = offGray;
-		extTwo.GetComponent<Image>().color = offGray;
-		txOne.GetComponent<Image>().color = offGray;
-		txTwo.GetComponent<Image>().color = offGray;
-		intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-		intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-		intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
 		intTwo_COLLOWERLOS.GetComponent<Image>().color = waitingYellow;
-	}
-	
-	/* public void dvrClick() {
-		if (intOne_SATCOM.GetComponent<Image>().color == waitingYellow) {
-			dvrIntOne_SATCOM.SetActive(true);
+		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
+			intOne_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (SATCOM)" && currDVRActive == "HUD -> INT1 (SATCOM)") {
 			intOne_SATCOM.GetComponent<Image>().color = dvrOrange;
-			dvrHUD.SetActive(false);
-			if (currDVRActive == "DVR -> INT1 (SATCOM)") {
-				return;
-			}
-			else if (currDVRActive == "DVR -> INT2 (SATCOM)") {
-				dvrIntTwo_SATCOM.SetActive(false);
-				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> EXT2") {
-				dvrExtTwo.SetActive(false);
-				extTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> TX1") {
-				dvrTxOne.SetActive(false);
-				txOne.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> TX2") {
-				dvrTxTwo.SetActive(false);
-				txTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL UPPER LOS)") {
-				dvrIntOne_COLUPPERLOS.SetActive(false);
-				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (COL UPPER LOS)") {
-				dvrIntTwo_COLUPPERLOS.SetActive(false);
-				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL LOWER LOS)") {
-				dvrIntOne_COLLOWERLOS.SetActive(false);
-				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (SATCOM)";
-			}
-			else {
-				dvrIntTwo_COLLOWERLOS.SetActive(false);
-				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (SATCOM)";
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
-		else if (intTwo_SATCOM.GetComponent<Image>().color == waitingYellow) {
-			dvrIntTwo_SATCOM.SetActive(true);
+		else {
+			intOne_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (SATCOM)" && currDVRActive != "HUD -> INT2 (SATCOM)") {
+			intTwo_SATCOM.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (SATCOM)" && currDVRActive == "HUD -> INT2 (SATCOM)") {
 			intTwo_SATCOM.GetComponent<Image>().color = dvrOrange;
-			dvrHUD.SetActive(false);
-			if (currDVRActive == "DVR -> INT1 (SATCOM)") {
-				dvrIntOne_SATCOM.SetActive(false);
-				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (SATCOM)") {
-				return;
-			}
-			else if (currDVRActive == "DVR -> EXT2") {
-				dvrExtTwo.SetActive(false);
-				extTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> TX1") {
-				dvrTxOne.SetActive(false);
-				txOne.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> TX2") {
-				dvrTxTwo.SetActive(false);
-				txTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL UPPER LOS)") {
-				dvrIntOne_COLUPPERLOS.SetActive(false);
-				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (COL UPPER LOS)") {
-				dvrIntTwo_COLUPPERLOS.SetActive(false);
-				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (SATCOM)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL LOWER LOS)") {
-				dvrIntOne_COLLOWERLOS.SetActive(false);
-				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (SATCOM)";
-			}
-			else {
-				dvrIntTwo_COLLOWERLOS.SetActive(false);
-				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (SATCOM)";
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
-		else if (extTwo.GetComponent<Image>().color == waitingYellow) {
-			dvrExtTwo.SetActive(true);
+		else {
+			intTwo_SATCOM.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> EXT2" && currDVRActive != "HUD -> EXT2") {
+			extTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> EXT2" && currDVRActive == "HUD -> EXT2") {
 			extTwo.GetComponent<Image>().color = dvrOrange;
-			dvrHUD.SetActive(false);
-			if (currDVRActive == "DVR -> INT1 (SATCOM)") {
-				dvrIntOne_SATCOM.SetActive(false);
-				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> EXT2";
-			}
-			else if (currDVRActive == "DVR -> INT2 (SATCOM)") {
-				dvrIntTwo_SATCOM.SetActive(false);
-				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> EXT2";
-			}
-			else if (currDVRActive == "DVR -> EXT2") {
-				return;
-			}
-			else if (currDVRActive == "DVR -> TX1") {
-				dvrTxOne.SetActive(false);
-				txOne.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> EXT2";
-			}
-			else if (currDVRActive == "DVR -> TX2") {
-				dvrTxTwo.SetActive(false);
-				txTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> EXT2";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL UPPER LOS)") {
-				dvrIntOne_COLUPPERLOS.SetActive(false);
-				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> EXT2";
-			}
-			else if (currDVRActive == "DVR -> INT2 (COL UPPER LOS)") {
-				dvrIntTwo_COLUPPERLOS.SetActive(false);
-				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> EXT2";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL LOWER LOS)") {
-				dvrIntOne_COLLOWERLOS.SetActive(false);
-				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> EXT2";
-			}
-			else {
-				dvrIntTwo_COLLOWERLOS.SetActive(false);
-				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> EXT2";
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
-		else if (txOne.GetComponent<Image>().color == waitingYellow) {
-			dvrTxOne.SetActive(true);
+		else {
+			extTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX1" && currDVRActive != "HUD -> TX1") {
+			txOne.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX1" && currDVRActive == "HUD -> TX1") {
 			txOne.GetComponent<Image>().color = dvrOrange;
-			dvrHUD.SetActive(false);
-			if (currDVRActive == "DVR -> INT1 (SATCOM)") {
-				dvrIntOne_SATCOM.SetActive(false);
-				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX1";
-			}
-			else if (currDVRActive == "DVR -> INT2 (SATCOM)") {
-				dvrIntTwo_SATCOM.SetActive(false);
-				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX1";
-			}
-			else if (currDVRActive == "DVR -> EXT2") {
-				dvrExtTwo.SetActive(false);
-				extTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX1";
-			}
-			else if (currDVRActive == "DVR -> TX1") {
-				return;
-			}
-			else if (currDVRActive == "DVR -> TX2") {
-				dvrTxTwo.SetActive(false);
-				txTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX1";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL UPPER LOS)") {
-				dvrIntOne_COLUPPERLOS.SetActive(false);
-				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX1";
-			}
-			else if (currDVRActive == "DVR -> INT2 (COL UPPER LOS)") {
-				dvrIntTwo_COLUPPERLOS.SetActive(false);
-				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX1";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL LOWER LOS)") {
-				dvrIntOne_COLLOWERLOS.SetActive(false);
-				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX1";
-			}
-			else {
-				dvrIntTwo_COLLOWERLOS.SetActive(false);
-				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX1";
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
-		else if (txTwo.GetComponent<Image>().color == waitingYellow) {
-			dvrTxTwo.SetActive(true);
+		else {
+			txOne.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> TX2" && currDVRActive != "HUD -> TX2") {
+			txTwo.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> TX2" && currDVRActive == "HUD -> TX2") {
 			txTwo.GetComponent<Image>().color = dvrOrange;
-			dvrHUD.SetActive(false);
-			if (currDVRActive == "DVR -> INT1 (SATCOM)") {
-				dvrIntOne_SATCOM.SetActive(false);
-				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX2";
-			}
-			else if (currDVRActive == "DVR -> INT2 (SATCOM)") {
-				dvrIntTwo_SATCOM.SetActive(false);
-				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX2";
-			}
-			else if (currDVRActive == "DVR -> EXT2") {
-				dvrExtTwo.SetActive(false);
-				extTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX2";
-			}
-			else if (currDVRActive == "DVR -> TX1") {
-				dvrTxOne.SetActive(false);
-				txOne.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX2";
-			}
-			else if (currDVRActive == "DVR -> TX2") {
-				return;
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL UPPER LOS)") {
-				dvrIntOne_COLUPPERLOS.SetActive(false);
-				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX2";
-			}
-			else if (currDVRActive == "DVR -> INT2 (COL UPPER LOS)") {
-				dvrIntTwo_COLUPPERLOS.SetActive(false);
-				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX2";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL LOWER LOS)") {
-				dvrIntOne_COLLOWERLOS.SetActive(false);
-				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX2";
-			}
-			else {
-				dvrIntTwo_COLLOWERLOS.SetActive(false);
-				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> TX2";
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
-		else if (intOne_COLUPPERLOS.GetComponent<Image>().color == waitingYellow) {
-			dvrIntOne_COLUPPERLOS.SetActive(true);
+		else {
+			txTwo.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)" && currDVRActive != "HUD -> INT1 (COL UPPER LOS)") {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL UPPER LOS)" && currDVRActive == "HUD -> INT1 (COL UPPER LOS)") {
 			intOne_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
-			dvrHUD.SetActive(false);
-			if (currDVRActive == "DVR -> INT1 (SATCOM)") {
-				dvrIntOne_SATCOM.SetActive(false);
-				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (SATCOM)") {
-				dvrIntTwo_SATCOM.SetActive(false);
-				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> EXT2") {
-				dvrExtTwo.SetActive(false);
-				extTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> TX1") {
-				dvrTxOne.SetActive(false);
-				txOne.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> TX2") {
-				dvrTxTwo.SetActive(false);
-				txTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL UPPER LOS)") {
-				return;
-			}
-			else if (currDVRActive == "DVR -> INT2 (COL UPPER LOS)") {
-				dvrIntTwo_COLUPPERLOS.SetActive(false);
-				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL LOWER LOS)") {
-				dvrIntOne_COLLOWERLOS.SetActive(false);
-				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL UPPER LOS)";
-			}
-			else {
-				dvrIntTwo_COLLOWERLOS.SetActive(false);
-				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL UPPER LOS)";
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
-		else if (intTwo_COLUPPERLOS.GetComponent<Image>().color == waitingYellow) {
-			dvrIntTwo_COLUPPERLOS.SetActive(true);
+		else {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)" && currDVRActive != "HUD -> INT2 (COL UPPER LOS)") {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT2 (COL UPPER LOS)" && currDVRActive == "HUD -> INT2 (COL UPPER LOS)") {
 			intTwo_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
-			dvrHUD.SetActive(false);
-			if (currDVRActive == "DVR -> INT1 (SATCOM)") {
-				dvrIntOne_SATCOM.SetActive(false);
-				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (SATCOM)") {
-				dvrIntTwo_SATCOM.SetActive(false);
-				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> EXT2") {
-				dvrExtTwo.SetActive(false);
-				extTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> TX1") {
-				dvrTxOne.SetActive(false);
-				txOne.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> TX2") {
-				dvrTxTwo.SetActive(false);
-				txTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL UPPER LOS)") {
-				dvrIntOne_COLUPPERLOS.SetActive(false);
-				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL UPPER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (COL UPPER LOS)") {
-				return;
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL LOWER LOS)") {
-				dvrIntOne_COLLOWERLOS.SetActive(false);
-				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL UPPER LOS)";
-			}
-			else {
-				dvrIntTwo_COLLOWERLOS.SetActive(false);
-				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL UPPER LOS)";
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
-		else if (intOne_COLLOWERLOS.GetComponent<Image>().color == waitingYellow) {
-			dvrIntOne_COLLOWERLOS.SetActive(true);
+		else {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+		}
+		
+		if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)" && currDVRActive != "HUD -> INT1 (COL LOWER LOS)") {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
+		}
+		else if (currHUDActive != "HUD -> INT1 (COL LOWER LOS)" && currDVRActive == "HUD -> INT1 (COL LOWER LOS)") {
 			intOne_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
-			dvrHUD.SetActive(false);
-			if (currDVRActive == "DVR -> INT1 (SATCOM)") {
-				dvrIntOne_SATCOM.SetActive(false);
-				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (SATCOM)") {
-				dvrIntTwo_SATCOM.SetActive(false);
-				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> EXT2") {
-				dvrExtTwo.SetActive(false);
-				extTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> TX1") {
-				dvrTxOne.SetActive(false);
-				txOne.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> TX2") {
-				dvrTxTwo.SetActive(false);
-				txTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL UPPER LOS)") {
-				dvrIntOne_COLUPPERLOS.SetActive(false);
-				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (COL UPPER LOS)") {
-				dvrIntTwo_COLUPPERLOS.SetActive(false);
-				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL LOWER LOS)") {
-				return;
-			}
-			else {
-				dvrIntTwo_COLLOWERLOS.SetActive(false);
-				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT1 (COL LOWER LOS)";
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
-		else if (intTwo_COLLOWERLOS.GetComponent<Image>().color == waitingYellow) {
-			dvrIntTwo_COLLOWERLOS.SetActive(true);
-			intTwo_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
-			dvrHUD.SetActive(false);
-			if (currDVRActive == "DVR -> INT1 (SATCOM)") {
-				dvrIntOne_SATCOM.SetActive(false);
-				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (SATCOM)") {
-				dvrIntTwo_SATCOM.SetActive(false);
-				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> EXT2") {
-				dvrExtTwo.SetActive(false);
-				extTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> TX1") {
-				dvrTxOne.SetActive(false);
-				txOne.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> TX2") {
-				dvrTxTwo.SetActive(false);
-				txTwo.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL UPPER LOS)") {
-				dvrIntOne_COLUPPERLOS.SetActive(false);
-				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT2 (COL UPPER LOS)") {
-				dvrIntTwo_COLUPPERLOS.SetActive(false);
-				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL LOWER LOS)";
-			}
-			else if (currDVRActive == "DVR -> INT1 (COL LOWER LOS)") {
-				dvrIntOne_COLLOWERLOS.SetActive(false);
-				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currDVRActive = "DVR -> INT2 (COL LOWER LOS)";
-			}
-			else {
-				return;
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
+		else {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
 		}
 	}
 	
 	public void hudClick() {
 		if (intOne_SATCOM.GetComponent<Image>().color == waitingYellow) {
-			hudIntOne_SATCOM.SetActive(true);
 			intOne_SATCOM.GetComponent<Image>().color = hudGreen;
-			if (currHUDActive == "HUD -> INT1 (SATCOM)") {
-				return;
-			}
-			else if (currHUDActive == "HUD -> INT2 (SATCOM)") {
-				hudIntTwo_SATCOM.SetActive(false);
+			hudIntOne_SATCOM.SetActive(true);
+			hudIntTwo_SATCOM.SetActive(false);
+			hudExtTwo.SetActive(false);
+			hudTxOne.SetActive(false);
+			hudTxTwo.SetActive(false);
+			hudIntOne_COLUPPERLOS.SetActive(false);
+			hudIntTwo_COLUPPERLOS.SetActive(false);
+			hudIntOne_COLLOWERLOS.SetActive(false);
+			hudIntTwo_COLLOWERLOS.SetActive(false);
+			currHUDActive = "HUD -> INT1 (SATCOM)";
+			if (intTwo_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> EXT2") {
-				hudExtTwo.SetActive(false);
+			if (extTwo.GetComponent<Image>().color == hudGreen) {
 				extTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> TX1") {
-				hudTxOne.SetActive(false);
+			if (txOne.GetComponent<Image>().color == hudGreen) {
 				txOne.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> TX2") {
-				hudTxTwo.SetActive(false);
+			if (txTwo.GetComponent<Image>().color == hudGreen) {
 				txTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)") {
-				hudIntOne_COLUPPERLOS.SetActive(false);
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)") {
-				hudIntTwo_COLUPPERLOS.SetActive(false);
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)") {
-				hudIntOne_COLLOWERLOS.SetActive(false);
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (SATCOM)";
 			}
-			else {
-				hudIntTwo_COLLOWERLOS.SetActive(false);
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (SATCOM)";
 			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
 		else if (intTwo_SATCOM.GetComponent<Image>().color == waitingYellow) {
-			hudIntTwo_SATCOM.SetActive(true);
 			intTwo_SATCOM.GetComponent<Image>().color = hudGreen;
-			if (currHUDActive == "HUD -> INT1 (SATCOM)") {
-				hudIntOne_SATCOM.SetActive(false);
+			hudIntOne_SATCOM.SetActive(false);
+			hudIntTwo_SATCOM.SetActive(true);
+			hudExtTwo.SetActive(false);
+			hudTxOne.SetActive(false);
+			hudTxTwo.SetActive(false);
+			hudIntOne_COLUPPERLOS.SetActive(false);
+			hudIntTwo_COLUPPERLOS.SetActive(false);
+			hudIntOne_COLLOWERLOS.SetActive(false);
+			hudIntTwo_COLLOWERLOS.SetActive(false);
+			currHUDActive = "HUD -> INT2 (SATCOM)";
+			if (intOne_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (SATCOM)") {
-				return;
-			}
-			else if (currHUDActive == "HUD -> EXT2") {
-				hudExtTwo.SetActive(false);
+			if (extTwo.GetComponent<Image>().color == hudGreen) {
 				extTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> TX1") {
-				hudTxOne.SetActive(false);
+			if (txOne.GetComponent<Image>().color == hudGreen) {
 				txOne.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> TX2") {
-				hudTxTwo.SetActive(false);
+			if (txTwo.GetComponent<Image>().color == hudGreen) {
 				txTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)") {
-				hudIntOne_COLUPPERLOS.SetActive(false);
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)") {
-				hudIntTwo_COLUPPERLOS.SetActive(false);
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (SATCOM)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)") {
-				hudIntOne_COLLOWERLOS.SetActive(false);
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (SATCOM)";
 			}
-			else {
-				hudIntTwo_COLLOWERLOS.SetActive(false);
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (SATCOM)";
 			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
 		else if (extTwo.GetComponent<Image>().color == waitingYellow) {
-			hudExtTwo.SetActive(true);
 			extTwo.GetComponent<Image>().color = hudGreen;
-			if (currHUDActive == "HUD -> INT1 (SATCOM)") {
-				hudIntOne_SATCOM.SetActive(false);
+			hudIntOne_SATCOM.SetActive(false);
+			hudIntTwo_SATCOM.SetActive(false);
+			hudExtTwo.SetActive(true);
+			hudTxOne.SetActive(false);
+			hudTxTwo.SetActive(false);
+			hudIntOne_COLUPPERLOS.SetActive(false);
+			hudIntTwo_COLUPPERLOS.SetActive(false);
+			hudIntOne_COLLOWERLOS.SetActive(false);
+			hudIntTwo_COLLOWERLOS.SetActive(false);
+			currHUDActive = "HUD -> EXT2";
+			if (intOne_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> EXT2";
 			}
-			else if (currHUDActive == "HUD -> INT2 (SATCOM)") {
-				hudIntTwo_SATCOM.SetActive(false);
+			if (intTwo_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> EXT2";
 			}
-			else if (currHUDActive == "HUD -> EXT2") {
-				return;
-			}
-			else if (currHUDActive == "HUD -> TX1") {
-				hudTxOne.SetActive(false);
+			if (txOne.GetComponent<Image>().color == hudGreen) {
 				txOne.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> EXT2";
 			}
-			else if (currHUDActive == "HUD -> TX2") {
-				hudTxTwo.SetActive(false);
+			if (txTwo.GetComponent<Image>().color == hudGreen) {
 				txTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> EXT2";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)") {
-				hudIntOne_COLUPPERLOS.SetActive(false);
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> EXT2";
 			}
-			else if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)") {
-				hudIntTwo_COLUPPERLOS.SetActive(false);
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> EXT2";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)") {
-				hudIntOne_COLLOWERLOS.SetActive(false);
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> EXT2";
 			}
-			else {
-				hudIntTwo_COLLOWERLOS.SetActive(false);
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> EXT2";
 			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
 		else if (txOne.GetComponent<Image>().color == waitingYellow) {
-			hudTxOne.SetActive(true);
 			txOne.GetComponent<Image>().color = hudGreen;
-			if (currHUDActive == "HUD -> INT1 (SATCOM)") {
-				hudIntOne_SATCOM.SetActive(false);
+			hudIntOne_SATCOM.SetActive(false);
+			hudIntTwo_SATCOM.SetActive(false);
+			hudExtTwo.SetActive(false);
+			hudTxOne.SetActive(true);
+			hudTxTwo.SetActive(false);
+			hudIntOne_COLUPPERLOS.SetActive(false);
+			hudIntTwo_COLUPPERLOS.SetActive(false);
+			hudIntOne_COLLOWERLOS.SetActive(false);
+			hudIntTwo_COLLOWERLOS.SetActive(false);
+			currHUDActive = "HUD -> TX1";
+			if (intOne_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX1";
 			}
-			else if (currHUDActive == "HUD -> INT2 (SATCOM)") {
-				hudIntTwo_SATCOM.SetActive(false);
+			if (intTwo_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX1";
 			}
-			else if (currHUDActive == "HUD -> EXT2") {
-				hudExtTwo.SetActive(false);
+			if (extTwo.GetComponent<Image>().color == hudGreen) {
 				extTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX1";
 			}
-			else if (currHUDActive == "HUD -> TX1") {
-				return;
-			}
-			else if (currHUDActive == "HUD -> TX2") {
-				hudTxTwo.SetActive(false);
+			if (txTwo.GetComponent<Image>().color == hudGreen) {
 				txTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX1";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)") {
-				hudIntOne_COLUPPERLOS.SetActive(false);
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX1";
 			}
-			else if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)") {
-				hudIntTwo_COLUPPERLOS.SetActive(false);
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX1";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)") {
-				hudIntOne_COLLOWERLOS.SetActive(false);
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX1";
 			}
-			else {
-				hudIntTwo_COLLOWERLOS.SetActive(false);
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX1";
 			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
 		else if (txTwo.GetComponent<Image>().color == waitingYellow) {
-			hudTxTwo.SetActive(true);
 			txTwo.GetComponent<Image>().color = hudGreen;
-			if (currHUDActive == "HUD -> INT1 (SATCOM)") {
-				hudIntOne_SATCOM.SetActive(false);
+			hudIntOne_SATCOM.SetActive(false);
+			hudIntTwo_SATCOM.SetActive(false);
+			hudExtTwo.SetActive(false);
+			hudTxOne.SetActive(false);
+			hudTxTwo.SetActive(true);
+			hudIntOne_COLUPPERLOS.SetActive(false);
+			hudIntTwo_COLUPPERLOS.SetActive(false);
+			hudIntOne_COLLOWERLOS.SetActive(false);
+			hudIntTwo_COLLOWERLOS.SetActive(false);
+			currHUDActive = "HUD -> TX2";
+			if (intOne_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX2";
 			}
-			else if (currHUDActive == "HUD -> INT2 (SATCOM)") {
-				hudIntTwo_SATCOM.SetActive(false);
+			if (intTwo_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX2";
 			}
-			else if (currHUDActive == "HUD -> EXT2") {
-				hudExtTwo.SetActive(false);
+			if (extTwo.GetComponent<Image>().color == hudGreen) {
 				extTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX2";
 			}
-			else if (currHUDActive == "HUD -> TX1") {
-				hudTxOne.SetActive(false);
+			if (txOne.GetComponent<Image>().color == hudGreen) {
 				txOne.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX2";
 			}
-			else if (currHUDActive == "HUD -> TX2") {
-				return;
-			}
-			else if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)") {
-				hudIntOne_COLUPPERLOS.SetActive(false);
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX2";
 			}
-			else if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)") {
-				hudIntTwo_COLUPPERLOS.SetActive(false);
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX2";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)") {
-				hudIntOne_COLLOWERLOS.SetActive(false);
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX2";
 			}
-			else {
-				hudIntTwo_COLLOWERLOS.SetActive(false);
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> TX2";
 			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
 		else if (intOne_COLUPPERLOS.GetComponent<Image>().color == waitingYellow) {
-			hudIntOne_COLUPPERLOS.SetActive(true);
 			intOne_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
-			if (currHUDActive == "HUD -> INT1 (SATCOM)") {
-				hudIntOne_SATCOM.SetActive(false);
+			hudIntOne_SATCOM.SetActive(false);
+			hudIntTwo_SATCOM.SetActive(false);
+			hudExtTwo.SetActive(false);
+			hudTxOne.SetActive(false);
+			hudTxTwo.SetActive(false);
+			hudIntOne_COLUPPERLOS.SetActive(true);
+			hudIntTwo_COLUPPERLOS.SetActive(false);
+			hudIntOne_COLLOWERLOS.SetActive(false);
+			hudIntTwo_COLLOWERLOS.SetActive(false);
+			currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
+			if (intOne_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (SATCOM)") {
-				hudIntTwo_SATCOM.SetActive(false);
+			if (intTwo_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> EXT2") {
-				hudExtTwo.SetActive(false);
+			if (extTwo.GetComponent<Image>().color == hudGreen) {
 				extTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> TX1") {
-				hudTxOne.SetActive(false);
+			if (txOne.GetComponent<Image>().color == hudGreen) {
 				txOne.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> TX2") {
-				hudTxTwo.SetActive(false);
+			if (txTwo.GetComponent<Image>().color == hudGreen) {
 				txTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)") {
-				return;
-			}
-			else if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)") {
-				hudIntTwo_COLUPPERLOS.SetActive(false);
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)") {
-				hudIntOne_COLLOWERLOS.SetActive(false);
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
 			}
-			else {
-				hudIntTwo_COLLOWERLOS.SetActive(false);
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL UPPER LOS)";
 			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
 		else if (intTwo_COLUPPERLOS.GetComponent<Image>().color == waitingYellow) {
-			hudIntTwo_COLUPPERLOS.SetActive(true);
 			intTwo_COLUPPERLOS.GetComponent<Image>().color = hudGreen;
-			if (currHUDActive == "HUD -> INT1 (SATCOM)") {
-				hudIntOne_SATCOM.SetActive(false);
+			hudIntOne_SATCOM.SetActive(false);
+			hudIntTwo_SATCOM.SetActive(false);
+			hudExtTwo.SetActive(false);
+			hudTxOne.SetActive(false);
+			hudTxTwo.SetActive(false);
+			hudIntOne_COLUPPERLOS.SetActive(false);
+			hudIntTwo_COLUPPERLOS.SetActive(true);
+			hudIntOne_COLLOWERLOS.SetActive(false);
+			hudIntTwo_COLLOWERLOS.SetActive(false);
+			currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
+			if (intOne_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (SATCOM)") {
-				hudIntTwo_SATCOM.SetActive(false);
+			if (intTwo_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> EXT2") {
-				hudExtTwo.SetActive(false);
+			if (extTwo.GetComponent<Image>().color == hudGreen) {
 				extTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> TX1") {
-				hudTxOne.SetActive(false);
+			if (txOne.GetComponent<Image>().color == hudGreen) {
 				txOne.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> TX2") {
-				hudTxTwo.SetActive(false);
+			if (txTwo.GetComponent<Image>().color == hudGreen) {
 				txTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)") {
-				hudIntOne_COLUPPERLOS.SetActive(false);
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)") {
-				return;
-			}
-			else if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)") {
-				hudIntOne_COLLOWERLOS.SetActive(false);
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
 			}
-			else {
-				hudIntTwo_COLLOWERLOS.SetActive(false);
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL UPPER LOS)";
 			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
 		else if (intOne_COLLOWERLOS.GetComponent<Image>().color == waitingYellow) {
-			hudIntOne_COLLOWERLOS.SetActive(true);
 			intOne_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
-			if (currHUDActive == "HUD -> INT1 (SATCOM)") {
-				hudIntOne_SATCOM.SetActive(false);
+			hudIntOne_SATCOM.SetActive(false);
+			hudIntTwo_SATCOM.SetActive(false);
+			hudExtTwo.SetActive(false);
+			hudTxOne.SetActive(false);
+			hudTxTwo.SetActive(false);
+			hudIntOne_COLUPPERLOS.SetActive(false);
+			hudIntTwo_COLUPPERLOS.SetActive(false);
+			hudIntOne_COLLOWERLOS.SetActive(true);
+			hudIntTwo_COLLOWERLOS.SetActive(false);
+			currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
+			if (intOne_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (SATCOM)") {
-				hudIntTwo_SATCOM.SetActive(false);
+			if (intTwo_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> EXT2") {
-				hudExtTwo.SetActive(false);
+			if (extTwo.GetComponent<Image>().color == hudGreen) {
 				extTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> TX1") {
-				hudTxOne.SetActive(false);
+			if (txOne.GetComponent<Image>().color == hudGreen) {
 				txOne.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> TX2") {
-				hudTxTwo.SetActive(false);
+			if (txTwo.GetComponent<Image>().color == hudGreen) {
 				txTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)") {
-				hudIntOne_COLUPPERLOS.SetActive(false);
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)") {
-				hudIntTwo_COLUPPERLOS.SetActive(false);
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)") {
-				return;
-			}
-			else {
-				hudIntTwo_COLLOWERLOS.SetActive(false);
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT1 (COL LOWER LOS)";
 			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
 		else if (intTwo_COLLOWERLOS.GetComponent<Image>().color == waitingYellow) {
-			hudIntTwo_COLLOWERLOS.SetActive(true);
 			intTwo_COLLOWERLOS.GetComponent<Image>().color = hudGreen;
-			if (currHUDActive == "HUD -> INT1 (SATCOM)") {
-				hudIntOne_SATCOM.SetActive(false);
+			hudIntOne_SATCOM.SetActive(false);
+			hudIntTwo_SATCOM.SetActive(false);
+			hudExtTwo.SetActive(false);
+			hudTxOne.SetActive(false);
+			hudTxTwo.SetActive(false);
+			hudIntOne_COLUPPERLOS.SetActive(false);
+			hudIntTwo_COLUPPERLOS.SetActive(false);
+			hudIntOne_COLLOWERLOS.SetActive(false);
+			hudIntTwo_COLLOWERLOS.SetActive(true);
+			currHUDActive = "HUD -> INT2 (COL LOWER LOS)";
+			if (intOne_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intOne_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (SATCOM)") {
-				hudIntTwo_SATCOM.SetActive(false);
+			if (intTwo_SATCOM.GetComponent<Image>().color == hudGreen) {
 				intTwo_SATCOM.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> EXT2") {
-				hudExtTwo.SetActive(false);
+			if (extTwo.GetComponent<Image>().color == hudGreen) {
 				extTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> TX1") {
-				hudTxOne.SetActive(false);
+			if (txOne.GetComponent<Image>().color == hudGreen) {
 				txOne.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> TX2") {
-				hudTxTwo.SetActive(false);
+			if (txTwo.GetComponent<Image>().color == hudGreen) {
 				txTwo.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL UPPER LOS)") {
-				hudIntOne_COLUPPERLOS.SetActive(false);
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT2 (COL UPPER LOS)") {
-				hudIntTwo_COLUPPERLOS.SetActive(false);
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == hudGreen) {
 				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL LOWER LOS)";
 			}
-			else if (currHUDActive == "HUD -> INT1 (COL LOWER LOS)") {
-				hudIntOne_COLLOWERLOS.SetActive(false);
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == hudGreen) {
 				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
-				currHUDActive = "HUD -> INT2 (COL LOWER LOS)";
 			}
-			else {
-				return;
-			}
-			Debug.Log(currHUDActive + ", " + currDVRActive);
 		}
-	} */
+	}
+	
+	public void dvrClick() {
+		if (intOne_SATCOM.GetComponent<Image>().color == waitingYellow) {
+			intOne_SATCOM.GetComponent<Image>().color = dvrOrange;
+			dvrIntOne_SATCOM.SetActive(true);
+			dvrIntTwo_SATCOM.SetActive(false);
+			dvrExtTwo.SetActive(false);
+			dvrTxOne.SetActive(false);
+			dvrTxTwo.SetActive(false);
+			dvrIntOne_COLUPPERLOS.SetActive(false);
+			dvrIntTwo_COLUPPERLOS.SetActive(false);
+			dvrIntOne_COLLOWERLOS.SetActive(false);
+			dvrIntTwo_COLLOWERLOS.SetActive(false);
+			dvrHUD.SetActive(false);
+			currHUDActive = "DVR -> INT1 (SATCOM)";
+			if (intTwo_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intTwo_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (extTwo.GetComponent<Image>().color == dvrOrange) {
+				extTwo.GetComponent<Image>().color = offGray;
+			}
+			if (txOne.GetComponent<Image>().color == dvrOrange) {
+				txOne.GetComponent<Image>().color = offGray;
+			}
+			if (txTwo.GetComponent<Image>().color == dvrOrange) {
+				txTwo.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+		}
+		else if (intTwo_SATCOM.GetComponent<Image>().color == waitingYellow) {
+			intTwo_SATCOM.GetComponent<Image>().color = dvrOrange;
+			dvrIntOne_SATCOM.SetActive(false);
+			dvrIntTwo_SATCOM.SetActive(true);
+			dvrExtTwo.SetActive(false);
+			dvrTxOne.SetActive(false);
+			dvrTxTwo.SetActive(false);
+			dvrIntOne_COLUPPERLOS.SetActive(false);
+			dvrIntTwo_COLUPPERLOS.SetActive(false);
+			dvrIntOne_COLLOWERLOS.SetActive(false);
+			dvrIntTwo_COLLOWERLOS.SetActive(false);
+			dvrHUD.SetActive(false);
+			currHUDActive = "DVR -> INT2 (SATCOM)";
+			if (intOne_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intOne_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (extTwo.GetComponent<Image>().color == dvrOrange) {
+				extTwo.GetComponent<Image>().color = offGray;
+			}
+			if (txOne.GetComponent<Image>().color == dvrOrange) {
+				txOne.GetComponent<Image>().color = offGray;
+			}
+			if (txTwo.GetComponent<Image>().color == dvrOrange) {
+				txTwo.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+		}
+		else if (extTwo.GetComponent<Image>().color == waitingYellow) {
+			extTwo.GetComponent<Image>().color = dvrOrange;
+			dvrIntOne_SATCOM.SetActive(false);
+			dvrIntTwo_SATCOM.SetActive(false);
+			dvrExtTwo.SetActive(true);
+			dvrTxOne.SetActive(false);
+			dvrTxTwo.SetActive(false);
+			dvrIntOne_COLUPPERLOS.SetActive(false);
+			dvrIntTwo_COLUPPERLOS.SetActive(false);
+			dvrIntOne_COLLOWERLOS.SetActive(false);
+			dvrIntTwo_COLLOWERLOS.SetActive(false);
+			dvrHUD.SetActive(false);
+			currHUDActive = "DVR -> EXT2";
+			if (intOne_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intOne_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intTwo_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (txOne.GetComponent<Image>().color == dvrOrange) {
+				txOne.GetComponent<Image>().color = offGray;
+			}
+			if (txTwo.GetComponent<Image>().color == dvrOrange) {
+				txTwo.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+		}
+		else if (txOne.GetComponent<Image>().color == waitingYellow) {
+			txOne.GetComponent<Image>().color = dvrOrange;
+			dvrIntOne_SATCOM.SetActive(false);
+			dvrIntTwo_SATCOM.SetActive(false);
+			dvrExtTwo.SetActive(false);
+			dvrTxOne.SetActive(true);
+			dvrTxTwo.SetActive(false);
+			dvrIntOne_COLUPPERLOS.SetActive(false);
+			dvrIntTwo_COLUPPERLOS.SetActive(false);
+			dvrIntOne_COLLOWERLOS.SetActive(false);
+			dvrIntTwo_COLLOWERLOS.SetActive(false);
+			dvrHUD.SetActive(false);
+			currHUDActive = "DVR -> TX1";
+			if (intOne_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intOne_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intTwo_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (extTwo.GetComponent<Image>().color == dvrOrange) {
+				extTwo.GetComponent<Image>().color = offGray;
+			}
+			if (txTwo.GetComponent<Image>().color == dvrOrange) {
+				txTwo.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+		}
+		else if (txTwo.GetComponent<Image>().color == waitingYellow) {
+			txTwo.GetComponent<Image>().color = dvrOrange;
+			dvrIntOne_SATCOM.SetActive(false);
+			dvrIntTwo_SATCOM.SetActive(false);
+			dvrExtTwo.SetActive(false);
+			dvrTxOne.SetActive(false);
+			dvrTxTwo.SetActive(true);
+			dvrIntOne_COLUPPERLOS.SetActive(false);
+			dvrIntTwo_COLUPPERLOS.SetActive(false);
+			dvrIntOne_COLLOWERLOS.SetActive(false);
+			dvrIntTwo_COLLOWERLOS.SetActive(false);
+			dvrHUD.SetActive(false);
+			currHUDActive = "DVR -> TX2";
+			if (intOne_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intOne_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intTwo_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (extTwo.GetComponent<Image>().color == dvrOrange) {
+				extTwo.GetComponent<Image>().color = offGray;
+			}
+			if (txOne.GetComponent<Image>().color == dvrOrange) {
+				txOne.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+		}
+		else if (intOne_COLUPPERLOS.GetComponent<Image>().color == waitingYellow) {
+			intOne_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+			dvrIntOne_SATCOM.SetActive(false);
+			dvrIntTwo_SATCOM.SetActive(false);
+			dvrExtTwo.SetActive(false);
+			dvrTxOne.SetActive(false);
+			dvrTxTwo.SetActive(false);
+			dvrIntOne_COLUPPERLOS.SetActive(true);
+			dvrIntTwo_COLUPPERLOS.SetActive(false);
+			dvrIntOne_COLLOWERLOS.SetActive(false);
+			dvrIntTwo_COLLOWERLOS.SetActive(false);
+			dvrHUD.SetActive(false);
+			currHUDActive = "DVR -> INT1 (COL UPPER LOS)";
+			if (intOne_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intOne_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intTwo_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (extTwo.GetComponent<Image>().color == dvrOrange) {
+				extTwo.GetComponent<Image>().color = offGray;
+			}
+			if (txOne.GetComponent<Image>().color == dvrOrange) {
+				txOne.GetComponent<Image>().color = offGray;
+			}
+			if (txTwo.GetComponent<Image>().color == dvrOrange) {
+				txTwo.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+		}
+		else if (intTwo_COLUPPERLOS.GetComponent<Image>().color == waitingYellow) {
+			intTwo_COLUPPERLOS.GetComponent<Image>().color = dvrOrange;
+			dvrIntOne_SATCOM.SetActive(false);
+			dvrIntTwo_SATCOM.SetActive(false);
+			dvrExtTwo.SetActive(false);
+			dvrTxOne.SetActive(false);
+			dvrTxTwo.SetActive(false);
+			dvrIntOne_COLUPPERLOS.SetActive(false);
+			dvrIntTwo_COLUPPERLOS.SetActive(true);
+			dvrIntOne_COLLOWERLOS.SetActive(false);
+			dvrIntTwo_COLLOWERLOS.SetActive(false);
+			dvrHUD.SetActive(false);
+			currHUDActive = "DVR -> INT2 (COL UPPER LOS)";
+			if (intOne_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intOne_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intTwo_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (extTwo.GetComponent<Image>().color == dvrOrange) {
+				extTwo.GetComponent<Image>().color = offGray;
+			}
+			if (txOne.GetComponent<Image>().color == dvrOrange) {
+				txOne.GetComponent<Image>().color = offGray;
+			}
+			if (txTwo.GetComponent<Image>().color == dvrOrange) {
+				txTwo.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+		}
+		else if (intOne_COLLOWERLOS.GetComponent<Image>().color == waitingYellow) {
+			intOne_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+			dvrIntOne_SATCOM.SetActive(false);
+			dvrIntTwo_SATCOM.SetActive(false);
+			dvrExtTwo.SetActive(false);
+			dvrTxOne.SetActive(false);
+			dvrTxTwo.SetActive(false);
+			dvrIntOne_COLUPPERLOS.SetActive(false);
+			dvrIntTwo_COLUPPERLOS.SetActive(false);
+			dvrIntOne_COLLOWERLOS.SetActive(true);
+			dvrIntTwo_COLLOWERLOS.SetActive(false);
+			dvrHUD.SetActive(false);
+			currHUDActive = "DVR -> INT1 (COL LOWER LOS)";
+			if (intOne_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intOne_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intTwo_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (extTwo.GetComponent<Image>().color == dvrOrange) {
+				extTwo.GetComponent<Image>().color = offGray;
+			}
+			if (txOne.GetComponent<Image>().color == dvrOrange) {
+				txOne.GetComponent<Image>().color = offGray;
+			}
+			if (txTwo.GetComponent<Image>().color == dvrOrange) {
+				txTwo.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+		}
+		else if (intTwo_COLLOWERLOS.GetComponent<Image>().color == waitingYellow) {
+			intTwo_COLLOWERLOS.GetComponent<Image>().color = dvrOrange;
+			dvrIntOne_SATCOM.SetActive(false);
+			dvrIntTwo_SATCOM.SetActive(false);
+			dvrExtTwo.SetActive(false);
+			dvrTxOne.SetActive(false);
+			dvrTxTwo.SetActive(false);
+			dvrIntOne_COLUPPERLOS.SetActive(false);
+			dvrIntTwo_COLUPPERLOS.SetActive(false);
+			dvrIntOne_COLLOWERLOS.SetActive(false);
+			dvrIntTwo_COLLOWERLOS.SetActive(true);
+			dvrHUD.SetActive(false);
+			currHUDActive = "DVR -> INT2 (COL LOWER LOS)";
+			if (intOne_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intOne_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_SATCOM.GetComponent<Image>().color == dvrOrange) {
+				intTwo_SATCOM.GetComponent<Image>().color = offGray;
+			}
+			if (extTwo.GetComponent<Image>().color == dvrOrange) {
+				extTwo.GetComponent<Image>().color = offGray;
+			}
+			if (txOne.GetComponent<Image>().color == dvrOrange) {
+				txOne.GetComponent<Image>().color = offGray;
+			}
+			if (txTwo.GetComponent<Image>().color == dvrOrange) {
+				txTwo.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intTwo_COLUPPERLOS.GetComponent<Image>().color == dvrOrange) {
+				intTwo_COLUPPERLOS.GetComponent<Image>().color = offGray;
+			}
+			if (intOne_COLLOWERLOS.GetComponent<Image>().color == dvrOrange) {
+				intOne_COLLOWERLOS.GetComponent<Image>().color = offGray;
+			}
+		}
+	}
 }
