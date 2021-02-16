@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2021-02-07T04:56:13.887-06:00
+  initializedAtString: 2021-02-07T02:53:07.546-06:00
+  localBranches:
+  - name: main
+    tracking: origin/main
+  - name: TestBranch
+    tracking: origin/TestBranch
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/CTICRM/MQ.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - main
+    - TestBranch
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/CTICRM/MQ.git
+      trackingBranch: main
+    - name: TestBranch
+      remote:
+        name: origin
+        url: https://github.com/CTICRM/MQ.git
+      trackingBranch: TestBranch
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - main
+    subKeyValues:
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/CTICRM/MQ.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/CTICRM/MQ.git

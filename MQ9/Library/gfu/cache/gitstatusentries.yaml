@@ -1,0 +1,570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2021-02-07T05:43:26.410-06:00
+  initializedAtString: 2021-02-07T02:24:22.389-06:00
+  entries:
+  - path: MQ9\Assets\Images\PhotoShop\Button.png
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Images\PhotoShop\Button.png
+    projectPath: Assets\Images\PhotoShop\Button.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Assets\Images\PhotoShop\Button.png.meta
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Images\PhotoShop\Button.png.meta
+    projectPath: Assets\Images\PhotoShop\Button.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Assets\Images\PhotoShop\New Material.mat
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Images\PhotoShop\New Material.mat
+    projectPath: Assets\Images\PhotoShop\New Material.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: MQ9\Assets\Images\PhotoShop\New Material.mat.meta
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Images\PhotoShop\New Material.mat.meta
+    projectPath: Assets\Images\PhotoShop\New Material.mat.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: MQ9\Assets\Images\PhotoShop\Square.png
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Images\PhotoShop\Square.png
+    projectPath: Assets\Images\PhotoShop\Square.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Assets\Images\PhotoShop\Square.png.meta
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Images\PhotoShop\Square.png.meta
+    projectPath: Assets\Images\PhotoShop\Square.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Assets\Scenes\Main.unity
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Scenes\Main.unity
+    projectPath: Assets\Scenes\Main.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Assets\Scripts\SimpleHide.cs
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Scripts\SimpleHide.cs
+    projectPath: Assets\Scripts\SimpleHide.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Assets\Scripts\SimpleHide.cs.meta
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Scripts\SimpleHide.cs.meta
+    projectPath: Assets\Scripts\SimpleHide.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Assets\Scripts\ViewDropdownHandler.cs
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Assets\Scripts\ViewDropdownHandler.cs
+    projectPath: Assets\Scripts\ViewDropdownHandler.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\ArtifactDB
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\Artifacts\22\22541e0829edc41b733a4efd2f95b0ed
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\22\22541e0829edc41b733a4efd2f95b0ed
+    projectPath: Library\Artifacts\22\22541e0829edc41b733a4efd2f95b0ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\25\25e160904ff7518b3d3bb39ca62a06c3
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\25\25e160904ff7518b3d3bb39ca62a06c3
+    projectPath: Library\Artifacts\25\25e160904ff7518b3d3bb39ca62a06c3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\56\56611ba10e1721a24cb9b97306bb4001
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\56\56611ba10e1721a24cb9b97306bb4001
+    projectPath: Library\Artifacts\56\56611ba10e1721a24cb9b97306bb4001
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\60\6012da569bd088fba6310dfa4360b8ef
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\60\6012da569bd088fba6310dfa4360b8ef
+    projectPath: Library\Artifacts\60\6012da569bd088fba6310dfa4360b8ef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\a2\a2083205aba9761dc9d00bb7e45a0244
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\a2\a2083205aba9761dc9d00bb7e45a0244
+    projectPath: Library\Artifacts\a2\a2083205aba9761dc9d00bb7e45a0244
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\aa\aa8ed97f85e71d4d5714fc52f9d4b309
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\aa\aa8ed97f85e71d4d5714fc52f9d4b309
+    projectPath: Library\Artifacts\aa\aa8ed97f85e71d4d5714fc52f9d4b309
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\ae\aea57de420ac1e85ee4820d485d0a5bb
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\ae\aea57de420ac1e85ee4820d485d0a5bb
+    projectPath: Library\Artifacts\ae\aea57de420ac1e85ee4820d485d0a5bb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\bb\bb98aa31cb7029f1f90056c8916e8cc8
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\bb\bb98aa31cb7029f1f90056c8916e8cc8
+    projectPath: Library\Artifacts\bb\bb98aa31cb7029f1f90056c8916e8cc8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\c4\c494cd2ec58b62d9fa904ba2815ba77e
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\c4\c494cd2ec58b62d9fa904ba2815ba77e
+    projectPath: Library\Artifacts\c4\c494cd2ec58b62d9fa904ba2815ba77e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\dc\dcf9b59662469eeb9c2b14e28075aef8
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\dc\dcf9b59662469eeb9c2b14e28075aef8
+    projectPath: Library\Artifacts\dc\dcf9b59662469eeb9c2b14e28075aef8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\e9\e95fa39a6021ff29c4ffa3feff6ab88a
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\e9\e95fa39a6021ff29c4ffa3feff6ab88a
+    projectPath: Library\Artifacts\e9\e95fa39a6021ff29c4ffa3feff6ab88a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\ec\ecc0fe15f23ec58687124e7fa3030e00
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\ec\ecc0fe15f23ec58687124e7fa3030e00
+    projectPath: Library\Artifacts\ec\ecc0fe15f23ec58687124e7fa3030e00
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\EditorInstance.json
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\ShaderCache\1\12fcd81b183691768528812331f4d31e.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\1\12fcd81b183691768528812331f4d31e.bin
+    projectPath: Library\ShaderCache\1\12fcd81b183691768528812331f4d31e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\1\1c4e4bc625ed8588c7a341dc52590897.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\1\1c4e4bc625ed8588c7a341dc52590897.bin
+    projectPath: Library\ShaderCache\1\1c4e4bc625ed8588c7a341dc52590897.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\1\1d7ecd0ab3325afe00b640d6831025db.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\1\1d7ecd0ab3325afe00b640d6831025db.bin
+    projectPath: Library\ShaderCache\1\1d7ecd0ab3325afe00b640d6831025db.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\2\2ea36f39f88fff0d689bb077a4ce1e0c.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\2\2ea36f39f88fff0d689bb077a4ce1e0c.bin
+    projectPath: Library\ShaderCache\2\2ea36f39f88fff0d689bb077a4ce1e0c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\3\3059c11326c92379098ae922059b3adb.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\3\3059c11326c92379098ae922059b3adb.bin
+    projectPath: Library\ShaderCache\3\3059c11326c92379098ae922059b3adb.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\3\364094402084b1bdc7ae2138e127ce64.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\3\364094402084b1bdc7ae2138e127ce64.bin
+    projectPath: Library\ShaderCache\3\364094402084b1bdc7ae2138e127ce64.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\4\4c5cce1e1ecb358ae88afd8e6bcd064c.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\4\4c5cce1e1ecb358ae88afd8e6bcd064c.bin
+    projectPath: Library\ShaderCache\4\4c5cce1e1ecb358ae88afd8e6bcd064c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\4\4dd105cbfe2d720c66e515b76cf5afda.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\4\4dd105cbfe2d720c66e515b76cf5afda.bin
+    projectPath: Library\ShaderCache\4\4dd105cbfe2d720c66e515b76cf5afda.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\5\5394766625617e05b4cd23fa76543675.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\5\5394766625617e05b4cd23fa76543675.bin
+    projectPath: Library\ShaderCache\5\5394766625617e05b4cd23fa76543675.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\5\580fb484b78df4441d43456c41a909a3.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\5\580fb484b78df4441d43456c41a909a3.bin
+    projectPath: Library\ShaderCache\5\580fb484b78df4441d43456c41a909a3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\5\5d6dc4fe5e3f2256694a1952cca5b435.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\5\5d6dc4fe5e3f2256694a1952cca5b435.bin
+    projectPath: Library\ShaderCache\5\5d6dc4fe5e3f2256694a1952cca5b435.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\6\647ee4eb244233913be62fafb454a3ae.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\6\647ee4eb244233913be62fafb454a3ae.bin
+    projectPath: Library\ShaderCache\6\647ee4eb244233913be62fafb454a3ae.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\6\649c8c8b5a66a739e817bfc5ccc6086a.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\6\649c8c8b5a66a739e817bfc5ccc6086a.bin
+    projectPath: Library\ShaderCache\6\649c8c8b5a66a739e817bfc5ccc6086a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\6\68df5dffab921bec379f9109445f40ba.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\6\68df5dffab921bec379f9109445f40ba.bin
+    projectPath: Library\ShaderCache\6\68df5dffab921bec379f9109445f40ba.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\7\7f2e70e1affaed27ffca16a2561e14d2.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\7\7f2e70e1affaed27ffca16a2561e14d2.bin
+    projectPath: Library\ShaderCache\7\7f2e70e1affaed27ffca16a2561e14d2.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\8\8bd4b11bdce8a17988c78c4883c50bd4.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\8\8bd4b11bdce8a17988c78c4883c50bd4.bin
+    projectPath: Library\ShaderCache\8\8bd4b11bdce8a17988c78c4883c50bd4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\a\a742c0b67f2a3d33d1abb6b6fdceb87b.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\a\a742c0b67f2a3d33d1abb6b6fdceb87b.bin
+    projectPath: Library\ShaderCache\a\a742c0b67f2a3d33d1abb6b6fdceb87b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\b\b244324d87210b56e85f047317171f38.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\b\b244324d87210b56e85f047317171f38.bin
+    projectPath: Library\ShaderCache\b\b244324d87210b56e85f047317171f38.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\d\d027533fef90ec9ce6364d7e66824b3f.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\d\d027533fef90ec9ce6364d7e66824b3f.bin
+    projectPath: Library\ShaderCache\d\d027533fef90ec9ce6364d7e66824b3f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\d\d7aa2ae1cdd71f16400f2271340922e1.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\d\d7aa2ae1cdd71f16400f2271340922e1.bin
+    projectPath: Library\ShaderCache\d\d7aa2ae1cdd71f16400f2271340922e1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\d\db9cc3ddbb2ebc5bd684544652fae79d.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\d\db9cc3ddbb2ebc5bd684544652fae79d.bin
+    projectPath: Library\ShaderCache\d\db9cc3ddbb2ebc5bd684544652fae79d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\d\dd3b84841865f2c1e386f69ae1a87562.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\d\dd3b84841865f2c1e386f69ae1a87562.bin
+    projectPath: Library\ShaderCache\d\dd3b84841865f2c1e386f69ae1a87562.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\ShaderCache\f\fa71438437d9dcb0e59d14fb1667a8b9.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\f\fa71438437d9dcb0e59d14fb1667a8b9.bin
+    projectPath: Library\ShaderCache\f\fa71438437d9dcb0e59d14fb1667a8b9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\f\fb40ace033e4fe78ab46e50532cfaa2b.bin
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ShaderCache\f\fb40ace033e4fe78ab46e50532cfaa2b.bin
+    projectPath: Library\ShaderCache\f\fb40ace033e4fe78ab46e50532cfaa2b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe10.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe10.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe10.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe11.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe11.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe11.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe12.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe12.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe12.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe8.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe8.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe8.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe9.log
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe9.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe9.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\SourceAssetDB
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityLockfile
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-0586b69fc3cedc141a6feb7b255b5850
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-0586b69fc3cedc141a6feb7b255b5850
+    projectPath: Temp\UnityTempFile-0586b69fc3cedc141a6feb7b255b5850
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-0dab3274a38a3ba45b99d6f0c73639c1
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-0dab3274a38a3ba45b99d6f0c73639c1
+    projectPath: Temp\UnityTempFile-0dab3274a38a3ba45b99d6f0c73639c1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-2152adfa7abc0a947b362e6a3542456c
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-2152adfa7abc0a947b362e6a3542456c
+    projectPath: Temp\UnityTempFile-2152adfa7abc0a947b362e6a3542456c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-83575bebc1cac8f458d702ed3608bb08
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-83575bebc1cac8f458d702ed3608bb08
+    projectPath: Temp\UnityTempFile-83575bebc1cac8f458d702ed3608bb08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-8846884b839c6294f8e694b9b6dc9376
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-8846884b839c6294f8e694b9b6dc9376
+    projectPath: Temp\UnityTempFile-8846884b839c6294f8e694b9b6dc9376
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-9fe1ae9125c1766428060e7ddcb31b71
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-9fe1ae9125c1766428060e7ddcb31b71
+    projectPath: Temp\UnityTempFile-9fe1ae9125c1766428060e7ddcb31b71
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-b0428eacd6edb434d9ba6acc94f96467
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-b0428eacd6edb434d9ba6acc94f96467
+    projectPath: Temp\UnityTempFile-b0428eacd6edb434d9ba6acc94f96467
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-c6dd8bf9dd071d74d809c32c777538bf
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-c6dd8bf9dd071d74d809c32c777538bf
+    projectPath: Temp\UnityTempFile-c6dd8bf9dd071d74d809c32c777538bf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-ee3a2507356436c40b9b0e0e34e34583
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-ee3a2507356436c40b9b0e0e34e34583
+    projectPath: Temp\UnityTempFile-ee3a2507356436c40b9b0e0e34e34583
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Temp\UnityTempFile-f9a78b883de9212458e6bc5d724c8de8
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-f9a78b883de9212458e6bc5d724c8de8
+    projectPath: Temp\UnityTempFile-f9a78b883de9212458e6bc5d724c8de8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
