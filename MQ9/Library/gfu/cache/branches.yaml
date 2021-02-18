@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2021-02-18T17:24:22.845-06:00
+  initializedAtString: 2021-02-18T17:24:22.834-06:00
+  localBranches:
+  - name: Changes
+    tracking: origin/Changes
+  - name: main
+    tracking: origin/main
+  - name: TestBranch
+    tracking: origin/TestBranch
+  - name: Update-Tracker
+    tracking: origin/Update-Tracker
+  remoteBranches:
+  - name: origin/Changes
+    tracking: '[None]'
+  - name: origin/main
+    tracking: '[None]'
+  - name: origin/TestBranch
+    tracking: '[None]'
+  - name: origin/Update-Tracker
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/CTICRM/MQ.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - Changes
+    - main
+    - TestBranch
+    - Update-Tracker
+    values:
+    - name: Changes
+      remote:
+        name: origin
+        url: https://github.com/CTICRM/MQ.git
+      trackingBranch: Changes
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/CTICRM/MQ.git
+      trackingBranch: main
+    - name: TestBranch
+      remote:
+        name: origin
+        url: https://github.com/CTICRM/MQ.git
+      trackingBranch: TestBranch
+    - name: Update-Tracker
+      remote:
+        name: origin
+        url: https://github.com/CTICRM/MQ.git
+      trackingBranch: Update-Tracker
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - Changes
+      - main
+      - TestBranch
+      - Update-Tracker
+    subKeyValues:
+    - Values:
+      - name: Changes
+        remote:
+          name: origin
+          url: https://github.com/CTICRM/MQ.git
+        trackingBranch: 
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/CTICRM/MQ.git
+        trackingBranch: 
+      - name: TestBranch
+        remote:
+          name: origin
+          url: https://github.com/CTICRM/MQ.git
+        trackingBranch: 
+      - name: Update-Tracker
+        remote:
+          name: origin
+          url: https://github.com/CTICRM/MQ.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/CTICRM/MQ.git

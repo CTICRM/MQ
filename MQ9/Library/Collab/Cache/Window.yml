@@ -13,8 +13,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - Assets/Images/ErrorIcon.png.meta
+    - Assets/Images/NoseCam.png.meta
+    - Assets/Images/PhotoShop/MTS ELP.png.meta
+    - Assets/Images/PhotoShop/MTS Expos.png.meta
+    - Assets/Images/PhotoShop/MTS FCBS.png.meta
+    - Assets/Images/PhotoShop/MTS Gain.png.meta
+    - Assets/Images/PhotoShop/MTS PRF ID.png.meta
+    - Assets/Images/PhotoShop/MTS PRF.png.meta
+    - Assets/Images/PhotoShop/MTS Rate.png.meta
+    - Assets/Images/PhotoShop/MTS Split.png.meta
+    - Assets/Images/PhotoShop/MTSButton Big.png.meta
+    - Assets/Images/PhotoShop/MTSButton Default.png.meta
+    - Assets/Images/PhotoShop/MenuButton.png.meta
+    - Assets/Images/PhotoShop/SMS Images.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Down Arrow.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Layout.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Long Button Blue.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Long Button.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Small Button Blue.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Small Button.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Status Lights.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Up Arrow Button.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Button.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Menu 1.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Menu 3.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Menu 4.png.meta
+    - Assets/Images/QuestionIcon.png.meta
+    - Assets/Images/logoFrame.png.meta
+    - Assets/Plugins.meta
+    - Assets/Plugins/GitHub.meta
+    - Assets/Plugins/GitHub/Editor.meta
+    - Assets/Prefab/GameObject.prefab
+    - Assets/Prefab/GameObject.prefab.meta
+    - Assets/Scenes/Main.unity
+    - Assets/Scenes/Main.unity.meta
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scripts/ARC210Control.cs
+    - Assets/Scripts/ARC210Control.cs.meta
+    - Assets/Scripts/BrightenDimImage.cs
+    - Assets/Scripts/BrightenDimImage.cs.meta
+    - Assets/Scripts/ColorChange.cs
+    - Assets/Scripts/DVRSettings.cs
+    - Assets/Scripts/DVRSettings.cs.meta
+    - Assets/Scripts/DatalinkDropdownHandler.cs
+    - Assets/Scripts/DatalinkDropdownHandler.cs.meta
+    - Assets/Scripts/DismissDialogs.cs
+    - Assets/Scripts/DismissDialogs.cs.meta
+    - Assets/Scripts/Drag.cs
+    - Assets/Scripts/EncoderBasicControls.cs
+    - Assets/Scripts/EncoderBasicControls.cs.meta
+    - Assets/Scripts/FileDropdownHandler.cs
+    - Assets/Scripts/FileDropdownHandler.cs.meta
+    - Assets/Scripts/MissionDropdownHandler.cs
+    - Assets/Scripts/MissionDropdownHandler.cs.meta
+    - Assets/Scripts/MissionEditor.cs
+    - Assets/Scripts/MissionEditor.cs.meta
+    - Assets/Scripts/MoveMap.cs
+    - Assets/Scripts/MoveMap.cs.meta
+    - Assets/Scripts/NavMode.cs
+    - Assets/Scripts/NavMode.cs.meta
+    - Assets/Scripts/PayloadsDropdownHandler.cs
+    - Assets/Scripts/PayloadsDropdownHandler.cs.meta
+    - Assets/Scripts/PopupMechanics.cs
+    - Assets/Scripts/Scale.cs
+    - Assets/Scripts/Scale.cs.meta
+    - Assets/Scripts/ShowHideCompass.cs
+    - Assets/Scripts/ShowHideCompass.cs.meta
+    - Assets/Scripts/ShowSliderValue.cs
+    - Assets/Scripts/ShowSliderValue.cs.meta
+    - Assets/Scripts/VideoMultiplexer.cs
+    - Assets/Scripts/VideoMultiplexer.cs.meta
+    - Assets/Scripts/ViewDropdownHandler.cs
+    - Assets/Scripts/ViewDropdownHandler.cs.meta
+    - Assets/Scripts/WaypointEditor.cs
+    - Assets/Scripts/WaypointEditor.cs.meta
+    - Assets/Scripts/Zoom.cs
+    - Assets/Scripts/Zoom.cs.meta
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/VFXManager.asset
+    - 
+    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
