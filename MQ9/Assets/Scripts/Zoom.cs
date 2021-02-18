@@ -8,8 +8,6 @@ public class Zoom : MonoBehaviour
     public Image map;
 	public Button zoomIn;
 	public Button zoomOut;
-	public Button zoomInDropdown;
-	public Button zoomOutDropdown;
 	Vector3 min = new Vector3(0.4f, 0.4f, 0.4f);
 	Vector3 minPlusOne = new Vector3(0.5f, 0.5f, 0.5f);
 	Vector3 minPlusTwo = new Vector3(0.6f, 0.6f, 0.6f);
@@ -23,15 +21,12 @@ public class Zoom : MonoBehaviour
         map.rectTransform.localScale = max;
 		zoomIn.GetComponent<Button>().interactable = false;
 		zoomOut.GetComponent<Button>().interactable = true;
-		zoomInDropdown.GetComponent<Button>().interactable = false;
-		zoomOutDropdown.GetComponent<Button>().interactable = true;
     }
 	
 	public void zoomOutMap() {
 		if (map.rectTransform.localScale == max) {
 			map.rectTransform.localScale = maxMinusOne;
 			zoomIn.GetComponent<Button>().interactable = true;
-			zoomInDropdown.GetComponent<Button>().interactable = true;
 		}
 		else if (map.rectTransform.localScale == maxMinusOne) {
 			map.rectTransform.localScale = maxMinusTwo;
@@ -48,7 +43,6 @@ public class Zoom : MonoBehaviour
 		else if (map.rectTransform.localScale == minPlusOne) {
 			map.rectTransform.localScale = min;
 			zoomOut.GetComponent<Button>().interactable = false;
-			zoomOutDropdown.GetComponent<Button>().interactable = false;
 		}
 	}
 	
@@ -56,7 +50,6 @@ public class Zoom : MonoBehaviour
 		if (map.rectTransform.localScale == min) {
 			map.rectTransform.localScale = minPlusOne;
 			zoomOut.GetComponent<Button>().interactable = true;
-			zoomOutDropdown.GetComponent<Button>().interactable = true;
 		}
 		else if (map.rectTransform.localScale == minPlusOne) {
 			map.rectTransform.localScale = minPlusTwo;
@@ -73,7 +66,6 @@ public class Zoom : MonoBehaviour
 		else if (map.rectTransform.localScale == maxMinusOne) {
 			map.rectTransform.localScale = max;
 			zoomIn.GetComponent<Button>().interactable = false;
-			zoomInDropdown.GetComponent<Button>().interactable = false;
 		}
 	}
 }
