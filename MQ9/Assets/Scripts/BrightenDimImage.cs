@@ -8,6 +8,8 @@ public class BrightenDimImage : MonoBehaviour
     public Image map;
 	public Button dim;
 	public Button brighten;
+	public Button dimDropdown;
+	public Button brightenDropdown;
 	Color32 dimmest = new Color32(15, 15, 15, 255);
 	Color32 dimPlusOne = new Color32(55, 55, 55, 255);
 	Color32 dimPlusTwo = new Color32(95, 95, 95, 255);
@@ -21,12 +23,15 @@ public class BrightenDimImage : MonoBehaviour
         map.GetComponent<Image>().color = middle;
 		dim.GetComponent<Button>().interactable = true;
 		brighten.GetComponent<Button>().interactable = true;
+		dimDropdown.GetComponent<Button>().interactable = true;
+		brightenDropdown.GetComponent<Button>().interactable = true;
     }
 
     public void dimMap() {
 		if (map.GetComponent<Image>().color == max) {
 			map.GetComponent<Image>().color = maxMinusOne;
 			brighten.GetComponent<Button>().interactable = true;
+			brightenDropdown.GetComponent<Button>().interactable = true;
 		}
 		else if (map.GetComponent<Image>().color == maxMinusOne) {
 			map.GetComponent<Image>().color = maxMinusTwo;
@@ -43,6 +48,7 @@ public class BrightenDimImage : MonoBehaviour
 		else if (map.GetComponent<Image>().color == dimPlusOne) {
 			map.GetComponent<Image>().color = dimmest;
 			dim.GetComponent<Button>().interactable = false;
+			dimDropdown.GetComponent<Button>().interactable = false;
 		}
 	}
 	
@@ -50,6 +56,7 @@ public class BrightenDimImage : MonoBehaviour
 		if (map.GetComponent<Image>().color == dimmest) {
 			map.GetComponent<Image>().color = dimPlusOne;
 			dim.GetComponent<Button>().interactable = true;
+			dimDropdown.GetComponent<Button>().interactable = true;
 		}
 		else if (map.GetComponent<Image>().color == dimPlusOne) {
 			map.GetComponent<Image>().color = dimPlusTwo;
@@ -66,6 +73,7 @@ public class BrightenDimImage : MonoBehaviour
 		else if (map.GetComponent<Image>().color == maxMinusOne) {
 			map.GetComponent<Image>().color = max;
 			brighten.GetComponent<Button>().interactable = false;
+			brightenDropdown.GetComponent<Button>().interactable = false;
 		}
 	}
 }
