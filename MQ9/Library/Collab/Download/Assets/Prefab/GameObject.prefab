@@ -1,0 +1,887 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3031315709030311515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2040188722455028555}
+  - component: {fileID: 5560941358915087283}
+  - component: {fileID: 8611476943734391783}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2040188722455028555
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3031315709030311515}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2565632760022354609}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5560941358915087283
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3031315709030311515}
+  m_CullTransparentMesh: 0
+--- !u!114 &8611476943734391783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3031315709030311515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: ^
+--- !u!1 &7666752717470327383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2565632760022354609}
+  - component: {fileID: 2425904050202399321}
+  - component: {fileID: 521054802379080577}
+  - component: {fileID: 8203724986455720976}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2565632760022354609
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666752717470327383}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2040188722455028555}
+  m_Father: {fileID: 5552316201533621924}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 104, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2425904050202399321
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666752717470327383}
+  m_CullTransparentMesh: 0
+--- !u!114 &521054802379080577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666752717470327383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8203724986455720976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666752717470327383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 521054802379080577}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1001 &7989559632251465273
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2588817775622600726, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3a452e10989af744bacabd8179383fa8, type: 3}
+    - target: {fileID: 2588817775622600726, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Left_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Right_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Top_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Bottom_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: trackerCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: statusScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: commandScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SMS_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: MFD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: Pilot_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SO_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: stationTextField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeZone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775640922081, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: soClock
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775660100914, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3a452e10989af744bacabd8179383fa8, type: 3}
+    - target: {fileID: 2588817775660100915, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775662761515, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b67d115da8854434d9b7c33114d87dbf, type: 3}
+    - target: {fileID: 2588817775696623868, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b67d115da8854434d9b7c33114d87dbf, type: 3}
+    - target: {fileID: 2588817775954335941, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3a452e10989af744bacabd8179383fa8, type: 3}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993664, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993676, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_Name
+      value: Sidebar Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817775987993676, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Left_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Right_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Top_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Bottom_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: trackerCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: statusScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: commandScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SMS_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: MFD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: Pilot_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SO_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: stationTextField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeZone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776114278351, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: soClock
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Left_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Right_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Top_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Bottom_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: trackerCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: statusScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: commandScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SMS_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: MFD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: Pilot_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SO_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: stationTextField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeZone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776207097652, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: soClock
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Left_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Right_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Top_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Bottom_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: trackerCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: statusScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: commandScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SMS_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: MFD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: Pilot_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SO_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: stationTextField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeZone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776290796291, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: soClock
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776451472997, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3a452e10989af744bacabd8179383fa8, type: 3}
+    - target: {fileID: 2588817776451472998, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776590757592, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3a452e10989af744bacabd8179383fa8, type: 3}
+    - target: {fileID: 2588817776590757593, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776684539224, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3a452e10989af744bacabd8179383fa8, type: 3}
+    - target: {fileID: 2588817776684539225, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 86.614075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776684539225, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -127.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Left_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Right_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Top_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Bottom_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: trackerCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: statusScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: commandScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SMS_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: MFD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: Pilot_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SO_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: stationTextField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeZone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776763735384, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: soClock
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776804969121, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Left_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Right_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Top_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Bottom_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: trackerCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: statusScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: commandScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SMS_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: MFD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: Pilot_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SO_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: stationTextField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeZone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776835585490, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: soClock
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817776846629022, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777065218582, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3a452e10989af744bacabd8179383fa8, type: 3}
+    - target: {fileID: 2588817777065218583, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Left_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Right_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Top_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Bottom_Buttons
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: trackerCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: statusScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: commandScreenCanvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SMS_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: MFD_Canvas
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: Pilot_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SO_HUD_Image
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: stationTextField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: timeZone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777102281428, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: soClock
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777133425000, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 87.138824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777133425000, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -125.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777133425007, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3a452e10989af744bacabd8179383fa8, type: 3}
+    - target: {fileID: 2588817777141632414, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b67d115da8854434d9b7c33114d87dbf, type: 3}
+    - target: {fileID: 2588817777164521304, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b67d115da8854434d9b7c33114d87dbf, type: 3}
+    - target: {fileID: 2588817777372945445, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3a452e10989af744bacabd8179383fa8, type: 3}
+    - target: {fileID: 2588817777579067791, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b67d115da8854434d9b7c33114d87dbf, type: 3}
+    - target: {fileID: 2588817777624145018, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: configObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777624145018, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: trackerObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777624145018, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: HUD_Object
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777624145018, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: statusScreenObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777624145018, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: commandScreenObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777624145018, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: SMS_Object
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777624145018, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: MFD_Object
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588817777624145018, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+      propertyPath: okButton
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+--- !u!224 &5552316201533621924 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2588817776846629021, guid: 7a2b00cb329017744aa0290a10fe41a4, type: 3}
+  m_PrefabInstance: {fileID: 7989559632251465273}
+  m_PrefabAsset: {fileID: 0}
