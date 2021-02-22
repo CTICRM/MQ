@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-02-18T17:13:18.364-06:00
-  initializedAtString: 2021-02-18T17:13:18.364-06:00
+  lastUpdatedAtString: 2021-02-21T19:46:02.777-06:00
+  initializedAtString: 2021-02-21T19:46:02.777-06:00
   entries:
   - path: MQ9\Library\ArtifactDB
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ArtifactDB
@@ -22,60 +22,42 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Library\Artifacts\00\00b5ee63b4a9c4ef1b320d4b9988911c
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\00\00b5ee63b4a9c4ef1b320d4b9988911c
-    projectPath: Library\Artifacts\00\00b5ee63b4a9c4ef1b320d4b9988911c
+  - path: MQ9\Library\Artifacts\43\4351d4d1ad4513e1aeae8d3ca4f89e6e
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\43\4351d4d1ad4513e1aeae8d3ca4f89e6e
+    projectPath: Library\Artifacts\43\4351d4d1ad4513e1aeae8d3ca4f89e6e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\23\235d1e9489454c0d1011f30ce77c8c4d
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\23\235d1e9489454c0d1011f30ce77c8c4d
-    projectPath: Library\Artifacts\23\235d1e9489454c0d1011f30ce77c8c4d
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\7c\7c03a3707bea8b776dccbf59f662cd57
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\7c\7c03a3707bea8b776dccbf59f662cd57
+    projectPath: Library\Artifacts\7c\7c03a3707bea8b776dccbf59f662cd57
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\3a\3a45109b115e1a7755068b262237faab
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\3a\3a45109b115e1a7755068b262237faab
-    projectPath: Library\Artifacts\3a\3a45109b115e1a7755068b262237faab
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\99\991005310c7b7be9f765bfb40953e1b1
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\99\991005310c7b7be9f765bfb40953e1b1
+    projectPath: Library\Artifacts\99\991005310c7b7be9f765bfb40953e1b1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\85\85f6873072213b35b6aa33666ff03a7f
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\85\85f6873072213b35b6aa33666ff03a7f
-    projectPath: Library\Artifacts\85\85f6873072213b35b6aa33666ff03a7f
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\a9\a9199f6a58a971a5a823563dbc866208
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\a9\a9199f6a58a971a5a823563dbc866208
+    projectPath: Library\Artifacts\a9\a9199f6a58a971a5a823563dbc866208
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\Artifacts\e7\e72ee84928d0732976116e1d0114ab91
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\e7\e72ee84928d0732976116e1d0114ab91
+    projectPath: Library\Artifacts\e7\e72ee84928d0732976116e1d0114ab91
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: MQ9\Library\EditorInstance.json
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: MQ9\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: MQ9\Library\PackageManager\ProjectCache
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\PackageManager\ProjectCache
     projectPath: Library\PackageManager\ProjectCache
@@ -106,21 +88,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: MQ9\Temp\UnityLockfile
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: MQ9\Temp\UnityTempFile-f952e3156bb3b3948946a46bebf65ca9
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-f952e3156bb3b3948946a46bebf65ca9
-    projectPath: Temp\UnityTempFile-f952e3156bb3b3948946a46bebf65ca9
+  - path: MQ9\Temp\UnityTempFile-846be60f8edb5b24690c4b86203c2b6e
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityTempFile-846be60f8edb5b24690c4b86203c2b6e
+    projectPath: Temp\UnityTempFile-846be60f8edb5b24690c4b86203c2b6e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
