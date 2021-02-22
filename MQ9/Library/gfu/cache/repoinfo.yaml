@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-02-15T20:26:22.956-06:00
-  initializedAtString: 2021-02-15T20:15:15.553-06:00
+  lastUpdatedAtString: 2021-02-22T09:30:36.427-06:00
+  initializedAtString: 2021-02-16T10:07:03.521-06:00
   currentGitRemote:
     name: origin
     url: https://github.com/CTICRM/MQ.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: main
-    tracking: origin/main
+    name: joshua
+    tracking: 
   currentConfigBranch:
-    name: main
+    name: joshua
     remote:
-      name: origin
-      url: https://github.com/CTICRM/MQ.git
-    trackingBranch: main
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: https://github.com/CTICRM/MQ.git
