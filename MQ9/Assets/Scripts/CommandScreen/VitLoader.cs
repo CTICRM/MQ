@@ -99,11 +99,14 @@ public class VitLoader : MonoBehaviour
             TextMeshProUGUI tmp = lblTitle.GetComponent<TextMeshProUGUI>();
             tmp.text = vf.title;
 
-           
 
-            // Get the text component from lblVal and set the value
+            // Get the text component from lblVal            
             GameObject lblVal = go.transform.Find("lblVal").gameObject;
             tmp = lblVal.GetComponent<TextMeshProUGUI>();
+
+            // Get the text component from lblUnit
+            GameObject lblUnit = go.transform.Find("lblUnit").gameObject;
+            
 
             // Check to see if the field has a value or a range and set one of the values accordingly
             // TODO: Check to see if the field has a YellowsReds entry and set label background color accordingly.
@@ -115,10 +118,13 @@ public class VitLoader : MonoBehaviour
             else if (vf.range != null && vf.range.Length == 2) // If range, pick random value
             {
                 float value = Random.Range(vf.range[0], vf.range[1]);
-                tmp.text = $"{string.Format("{0:F1}", value)} {vf.units}";
+                tmp.text = $"{string.Format("{0:F1}", value)}";
+                // Set the text compenent of lblUnit to the units
+                lblUnit.GetComponent<TextMeshProUGUI>().text = vf.units;
             }
             else
-                tmp.text = $"{vf.val} {vf.units}";
+                tmp.text = $"{vf.val}";
+                lblUnit.GetComponent<TextMeshProUGUI>().text = vf.units;
 
             index = i;
         }
