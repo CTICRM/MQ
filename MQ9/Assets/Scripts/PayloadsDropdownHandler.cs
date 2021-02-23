@@ -11,7 +11,6 @@ public class PayloadsDropdownHandler : MonoBehaviour
 	public Button rightUAVGPOne;
 	public Button rightUAVGPTwo;
 	public Button rightUAVGPThree;
-	public GameObject genericPayloadConfig;
 	Color32 optionOn = new Color32(0, 0, 0, 255);
 	Color32 optionOff = new Color32(255, 255, 255, 255);
     // Start is called before the first frame update
