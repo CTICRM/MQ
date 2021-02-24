@@ -10,17 +10,17 @@ public class Zoom : MonoBehaviour
 	public Button zoomOut;
 	public Button zoomInDropdown;
 	public Button zoomOutDropdown;
-	Vector3 min = new Vector3(0.4f, 0.4f, 0.4f);
-	Vector3 minPlusOne = new Vector3(0.5f, 0.5f, 0.5f);
-	Vector3 minPlusTwo = new Vector3(0.6f, 0.6f, 0.6f);
-	Vector3 middle = new Vector3(0.7f, 0.7f, 0.7f);
-	Vector3 maxMinusTwo = new Vector3(0.8f, 0.8f, 0.8f);
-	Vector3 maxMinusOne = new Vector3(0.9f, 0.9f, 0.9f);
-	Vector3 max = new Vector3(1, 1, 1);
+	Vector3 min = new Vector3(1.0f, 1.0f, 1.0f);
+	Vector3 minPlusOne = new Vector3(1.2f, 1.2f, 1.2f);
+	Vector3 minPlusTwo = new Vector3(1.4f, 1.4f, 1.4f);
+	Vector3 middle = new Vector3(1.6f, 1.6f, 1.6f);
+	Vector3 maxMinusTwo = new Vector3(1.7f, 1.8f, 1.8f);
+	Vector3 maxMinusOne = new Vector3(2.0f, 2.0f, 2.0f);
+	Vector3 max = new Vector3(2.2f, 2.2f, 2.2f);
     // Start is called before the first frame update
     void Start()
     {
-        map.rectTransform.localScale = max;
+        //map.rectTransform.localScale = max;
 		zoomIn.GetComponent<Button>().interactable = false;
 		zoomOut.GetComponent<Button>().interactable = true;
 		zoomInDropdown.GetComponent<Button>().interactable = false;

@@ -9,11 +9,15 @@ public class DismissDialogs : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dialogs = GameObject.FindGameObjectsWithTag("Dialog");
+        /* dialogs = GameObject.FindGameObjectsWithTag("Dialog");
 		foreach (GameObject dialog in dialogs) {
 			dialog.SetActive(false);
-		}
+		} */
     }
+	
+	void Update() {
+		dialogs = GameObject.FindGameObjectsWithTag("Dialog");
+	}
 	
 	public void turnOffActiveDialogs() {
 		foreach(GameObject dialog in dialogs) {
