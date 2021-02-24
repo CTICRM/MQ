@@ -138,9 +138,14 @@ public class VitLoader : MonoBehaviour
             TextMeshProUGUI tmp = lblTitle.GetComponent<TextMeshProUGUI>();
             tmp.text = "";
 
-            // Get the text component from lblVal and set the value
+            // Get the text component from lblVal and blank it
             GameObject lblVal = go.transform.Find("lblVal").gameObject;
             tmp = lblVal.GetComponent<TextMeshProUGUI>();
+            tmp.text = "";
+
+            // Get the text component from lblUnit and blank it
+            GameObject lblUnit = go.transform.Find("lblUnit").gameObject;
+            tmp = lblUnit.GetComponent<TextMeshProUGUI>();
             tmp.text = "";
         }
     }

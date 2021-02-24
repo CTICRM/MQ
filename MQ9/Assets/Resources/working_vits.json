@@ -4054,7 +4054,29 @@
         "title": "Ramp Weight",
         "val": "1150",
         "units":"lb"
-      }
+      },
+      {
+        "varName": "Ground Baro",
+        "title": "Ground Baro",
+        "val": "29.92",
+        "units":"in Hg"
+      },
+      {
+        "varName": "L Brake Ofs",
+        "title": "L Brake Ofs",
+        "val": "+0"
+      },
+      {
+        "varName": "R Brake Ofs",
+        "title": "R Brake Ofs",
+        "val": "+0"
+      },
+      {
+        "varName": "Fuel @ Start",
+        "title": "Fuel @ Start",
+        "val": "29.92",
+        "units":"in Hg"
+      },
     ],
     "htmlStr": "<div class=\"vit_colLt\"><div class=\"vit_row\"><span class=\"vit_rowName\">Roll Stick</span><span class=\"vit_rowVal\">-0.2</span><span class=\"vit_rowUnits\">\u00B0</span></div>
     <div class=\"vit_row\"><span class=\"vit_rowName\">Pitch Stick</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div>
@@ -4078,7 +4100,12 @@
     <div class=\"vit_row\"><span class=\"vit_rowName\">GCS Keypress</span><span class=\"vit_rowVal\">-1</span><span class=\"vit_rowUnits\">&nbsp;</span></div></div>
     <div class=\"vit_colRt\"><div class=\"vit_row\"><span class=\"vit_rowName\">Variation</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div>
     <div class=\"vit_row\"><span class=\"vit_rowName\">Min Alt MSL</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">ft</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Ramp weight</span><span class=\"vit_rowVal\">1150</span><span class=\"vit_rowUnits\">lb</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Ground Baro</span><span class=\"vit_rowVal\">29.92</span><span class=\"vit_rowUnits\">in Hg</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">L Brake Ofs</span><span class=\"vit_rowVal\">+0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">R Brake Ofs</span><span class=\"vit_rowVal\">+0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Fuel @ Start</span><span class=\"vit_rowVal\">450</span><span class=\"vit_rowUnits\">lb</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Range</span><span class=\"vit_rowVal\">0.80</span><span class=\"vit_rowUnits\">NM</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Azimuth</span><span class=\"vit_rowVal\">120</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Pwr RPM</span><span class=\"vit_rowVal\">3000</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Pwr Throttle</span><span class=\"vit_rowVal\">1002</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Roll Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Pitch Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Yaw Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Power Lvr Cmd</span><span class=\"vit_rowVal\">100</span><span class=\"vit_rowUnits\">&percnt;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Flap Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Feather/Off</span><span class=\"vit_rowVal\">40.2</span><span class=\"vit_rowUnits\">&percnt;</span></div></div>"
+    <div class=\"vit_row\"><span class=\"vit_rowName\">Ramp weight</span><span class=\"vit_rowVal\">1150</span><span class=\"vit_rowUnits\">lb</span></div>
+    <div class=\"vit_row\"><span class=\"vit_rowName\">Ground Baro</span><span class=\"vit_rowVal\">29.92</span><span class=\"vit_rowUnits\">in Hg</span></div>
+    <div class=\"vit_row\"><span class=\"vit_rowName\">L Brake Ofs</span><span class=\"vit_rowVal\">+0</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
+    <div class=\"vit_row\"><span class=\"vit_rowName\">R Brake Ofs</span><span class=\"vit_rowVal\">+0</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
+    <div class=\"vit_row\"><span class=\"vit_rowName\">Fuel @ Start</span><span class=\"vit_rowVal\">450</span><span class=\"vit_rowUnits\">lb</span></div>
+    <div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Range</span><span class=\"vit_rowVal\">0.80</span><span class=\"vit_rowUnits\">NM</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Azimuth</span><span class=\"vit_rowVal\">120</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Pwr RPM</span><span class=\"vit_rowVal\">3000</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Pwr Throttle</span><span class=\"vit_rowVal\">1002</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Roll Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Pitch Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Yaw Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Power Lvr Cmd</span><span class=\"vit_rowVal\">100</span><span class=\"vit_rowUnits\">&percnt;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Flap Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Feather/Off</span><span class=\"vit_rowVal\">40.2</span><span class=\"vit_rowUnits\">&percnt;</span></div></div>"
   },
   {
     "num": 17,
