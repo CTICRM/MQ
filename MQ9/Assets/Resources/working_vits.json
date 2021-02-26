@@ -4077,35 +4077,74 @@
         "val": "29.92",
         "units":"in Hg"
       },
-    ],
-    "htmlStr": "<div class=\"vit_colLt\"><div class=\"vit_row\"><span class=\"vit_rowName\">Roll Stick</span><span class=\"vit_rowVal\">-0.2</span><span class=\"vit_rowUnits\">\u00B0</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Pitch Stick</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Yaw Stick</span><span class=\"vit_rowVal\">+2.0</span><span class=\"vit_rowUnits\">\u00B0</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Throttle Cmd</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&percnt;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Flap Stick</span><span class=\"vit_rowVal\">+18.4</span><span class=\"vit_rowUnits\">\u00B0</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Prop P Cmd</span><span class=\"vit_rowVal\">51.2</span><span class=\"vit_rowUnits\">&percnt;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">L Brake Cmd</span><span class=\"vit_rowVal\">11</span><span class=\"vit_rowUnits\">&percnt;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">R Brake Cmd</span><span class=\"vit_rowVal\">8</span><span class=\"vit_rowUnits\">&percnt;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Mag Hdg Cmd</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">\u00B0</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Airspeed Req</span><span class=\"vit_rowVal\">70</span><span class=\"vit_rowUnits\">KIAS</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Alt MSL Cmd</span><span class=\"vit_rowVal\">1000</span><span class=\"vit_rowUnits\">ft</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Up Sawtooth</span><span class=\"vit_rowVal\">73</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">MTS Azim Cmd</span><span class=\"vit_rowVal\">000</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">MTS Dep Cmd</span><span class=\"vit_rowVal\">000</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Laser Range adj</span><span class=\"vit_rowVal\">05</span><span class=\"vit_rowUnits\">ft</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">MTS Zoom</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Menu Number</span><span class=\"vit_rowVal\">64</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">GCS Keypress</span><span class=\"vit_rowVal\">-1</span><span class=\"vit_rowUnits\">&nbsp;</span></div></div>
-    <div class=\"vit_colRt\"><div class=\"vit_row\"><span class=\"vit_rowName\">Variation</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Min Alt MSL</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">ft</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Ramp weight</span><span class=\"vit_rowVal\">1150</span><span class=\"vit_rowUnits\">lb</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Ground Baro</span><span class=\"vit_rowVal\">29.92</span><span class=\"vit_rowUnits\">in Hg</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">L Brake Ofs</span><span class=\"vit_rowVal\">+0</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">R Brake Ofs</span><span class=\"vit_rowVal\">+0</span><span class=\"vit_rowUnits\">&nbsp;</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">Fuel @ Start</span><span class=\"vit_rowVal\">450</span><span class=\"vit_rowUnits\">lb</span></div>
-    <div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Range</span><span class=\"vit_rowVal\">0.80</span><span class=\"vit_rowUnits\">NM</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Azimuth</span><span class=\"vit_rowVal\">120</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Pwr RPM</span><span class=\"vit_rowVal\">3000</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Pwr Throttle</span><span class=\"vit_rowVal\">1002</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Roll Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Pitch Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Yaw Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Power Lvr Cmd</span><span class=\"vit_rowVal\">100</span><span class=\"vit_rowUnits\">&percnt;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Flap Stick Pi</span><span class=\"vit_rowVal\">0.0</span><span class=\"vit_rowUnits\">\u00B0</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Feather/Off</span><span class=\"vit_rowVal\">40.2</span><span class=\"vit_rowUnits\">&percnt;</span></div></div>"
+      {
+        "varName":"none"
+      },
+      {
+        "varName": "Range",
+        "title": "Range",
+        "val": "0.80",
+        "units":"NM"
+      },
+      {
+        "varName": "Azimuth",
+        "title": "Azimuth",
+        "val": "120",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "Pwr RPM",
+        "title": "Pwr RPM",
+        "val": "3000"
+      },
+      {
+        "varName": "Pwr Throttle",
+        "title": "Pwr Throttle",
+        "val": "1002"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName": "Roll Stick Pi",
+        "title": "Roll Stick Pi",
+        "val": "0.0",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "Pitch Stick Pi",
+        "title": "Pitch Stick Pi",
+        "val": "0.0",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "Yaw Stick Pi",
+        "title": "Yaw Stick Pi",
+        "val": "0.0",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "Power Lvr Cmd",
+        "title": "Power Lvr Cmd",
+        "val": "100",
+        "units":"%"
+      },
+      {
+        "varName": "Flap Stick Pi",
+        "title": "Flap Stick Pi",
+        "val": "0.0",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "Feather/Off",
+        "title": "Feather/Off",
+        "val": "40.2",
+        "units":"%"
+      }
+    ]
   },
   {
     "num": 17,
@@ -4128,14 +4167,309 @@
   {
     "num": 20,
     "title": "PCC Health and Status",
-    "layout": "hard coded",
-    "htmlStr": "<div class=\"vit_colLt\"><div class=\"vit_row\"><span class=\"vit_rowName\">MCM Power Stat</span><span class=\"vit_rowVal\">OFF</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC Board Temp</span><span class=\"vit_rowVal\">-100</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC GPIO Out1</span><span class=\"vit_rowVal\">OFF</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC GPIO Out2</span><span class=\"vit_rowVal\">OFF</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC GPIO Out3</span><span class=\"vit_rowVal\">OFF</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC GPIO Out4</span><span class=\"vit_rowVal\">OFF</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC GPIO Inp1</span><span class=\"vit_rowVal\">OFF</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC GPIO Inp2</span><span class=\"vit_rowVal\">OFF</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC GPIO Inp3</span><span class=\"vit_rowVal\">OFF</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC GPIO Inp4</span><span class=\"vit_rowVal\">OFF</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div></div><div class=\"vit_colRt\"><div class=\"vit_row\"><span class=\"vit_rowName\">PCC PowerUp Cnt</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC Reset Ind</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC 1553 BA Er1</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC 1553 BA Er2</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC 1553 BA Er3</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC 1553 BA Er4</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC 1553 BB Er1</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC 1553 BB Er2</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC 1553 BB Er3</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">PCC 1553 BB Er4</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div></div>"
+    "layout": "2Col",
+    "bind":false,
+    "fields":[
+      {
+        "varName": "MCM Power Stat",
+        "title": "MCM Power Stat",
+        "val": "OFF"
+      },
+      {
+        "varName": "PCC Board Temp",
+        "title": "PCC Board Temp",
+        "val": "-100"
+      },
+      {
+        "varName": "PCC GPIO Out1",
+        "title": "PCC GPIO Out1",
+        "val": "OFF"
+      },
+      {
+        "varName": "PCC GPIO Out2",
+        "title": "PCC GPIO Out2",
+        "val": "OFF"
+      },
+      {
+        "varName": "PCC GPIO Out3",
+        "title": "PCC GPIO Out3",
+        "val": "OFF"
+      },
+      {
+        "varName": "PCC GPIO Out4",
+        "title": "PCC GPIO Out4",
+        "val": "OFF"
+      },
+      {
+        "varName": "PCC GPIO Inp1",
+        "title": "PCC GPIO Inp1",
+        "val": "OFF"
+      },
+      {
+        "varName": "PCC GPIO Inp2",
+        "title": "PCC GPIO Inp2",
+        "val": "OFF"
+      },
+      {
+        "varName": "PCC GPIO Inp3",
+        "title": "PCC GPIO Inp3",
+        "val": "OFF"
+      },
+      {
+        "varName": "PCC GPIO Inp4",
+        "title": "PCC GPIO Inp4",
+        "val": "OFF"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName": "PCC Powerup Cnt",
+        "title": "PCC Powerup Cnt",
+        "val": "0"
+      },
+      {
+        "varName": "PCC Reset Ind",
+        "title": "PCC Reset Ind",
+        "val": "0"
+      },
+      {
+        "varName": "PCC 1553 BA Er1",
+        "title": "PCC 1553 BA Er1",
+        "val": "0"
+      },
+      {
+        "varName": "PCC 1553 BA Er2",
+        "title": "PCC 1553 BA Er2",
+        "val": "0"
+      },
+      {
+        "varName": "PCC 1553 BA Er3",
+        "title": "PCC 1553 BA Er3",
+        "val": "0"
+      },
+      {
+        "varName": "PCC 1553 BA Er4",
+        "title": "PCC 1553 BA Er4",
+        "val": "0"
+      },
+      {
+        "varName": "PCC 1553 BB Er1",
+        "title": "PCC 1553 BB Er1",
+        "val": "0"
+      },
+      {
+        "varName": "PCC 1553 BB Er2",
+        "title": "PCC 1553 BB Er2",
+        "val": "0"
+      },
+      {
+        "varName": "PCC 1553 BB Er3",
+        "title": "PCC 1553 BB Er3",
+        "val": "0"
+      },
+      {
+        "varName": "PCC 1553 BB Er4",
+        "title": "PCC 1553 BB Er4",
+        "val": "0"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      }
+    ]
   },
   {
     "num": 21,
     "title": "Encoder Data",
-    "layout": "hard coded",
-    "htmlStr": "<div class=\"vit_colLt\"><div class=\"vit_row\"><span class=\"vit_rowName\">VE Op-Code</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Videnc Errors</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Ener Q Factr</span><span class=\"vit_rowVal\">24</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div></div><div class=\"vit_colRt\"><div class=\"vit_row\"><span class=\"vit_rowName\">VE Param</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Videnc Timeouts</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">Encoder/VCR Cam</span><span class=\"vit_rowVal\">0</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div><div class=\"vit_row\"><span class=\"vit_rowName\">&nbsp;</span><span class=\"vit_rowVal\">&nbsp;</span><span class=\"vit_rowUnits\">&nbsp;</span></div></div>"
+    "layout": "2Col",
+    "bind":false,
+    "fields":[
+      {
+        "varName": "VE Op-Code",
+        "title": "VE Op-Code",
+        "val": "0"
+      },
+      {
+        "varName": "Videnc Errors",
+        "title": "Videnc Errors",
+        "val": "0"
+      },
+      {
+        "varName": "Ener Q Factr",
+        "title": "Ener Q Factr",
+        "val": "24"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName": "VE Param",
+        "title": "VE Param",
+        "val": "0"
+      },
+      {
+        "varName": "Videnc Timeouts",
+        "title": "Videnc Timeouts",
+        "val": "0"
+      },
+      {
+        "varName": "Encoder/VCR Cam",
+        "title": "Encoder/VCR Cam",
+        "val": "0"
+      },
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    },
+    {
+      "varName":"none"
+    }
+    ]
   },
   {
     "num": 22,
