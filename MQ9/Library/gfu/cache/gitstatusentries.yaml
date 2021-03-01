@@ -13,33 +13,75 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-03-01T00:52:00.103-06:00
-  initializedAtString: 2021-03-01T00:52:00.103-06:00
+  lastUpdatedAtString: 2021-03-01T01:44:12.305-06:00
+  initializedAtString: 2021-03-01T01:37:08.007-06:00
   entries:
+  - path: .gitignore
+    fullPath: C:\Users\William\Desktop\Git\MQ\.gitignore
+    projectPath: ..\.gitignore
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: MQ9\Library\ArtifactDB
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Library\Artifacts\25\25c4e0dc96207330b7050effe8358a48
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\25\25c4e0dc96207330b7050effe8358a48
-    projectPath: Library\Artifacts\25\25c4e0dc96207330b7050effe8358a48
+  - path: MQ9\Library\ArtifactDB-lock
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\ArtifactDB-lock
+    projectPath: Library\ArtifactDB-lock
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\5d\5d39b6513a447a3d3920c4d79dacac2f
-    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\Artifacts\5d\5d39b6513a447a3d3920c4d79dacac2f
-    projectPath: Library\Artifacts\5d\5d39b6513a447a3d3920c4d79dacac2f
+    workTreeStatus: 3
+  - path: MQ9\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: MQ9\Library\EditorInstance.json
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: MQ9\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\PackageManager\ProjectCache
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\PackageManager\ProjectCache
+    projectPath: Library\PackageManager\ProjectCache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\PackageManager\ProjectCache.md5
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\PackageManager\ProjectCache.md5
+    projectPath: Library\PackageManager\ProjectCache.md5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: MQ9\Library\SceneVisibilityState.asset
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -52,6 +94,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: MQ9\Library\SourceAssetDB-lock
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\SourceAssetDB-lock
+    projectPath: Library\SourceAssetDB-lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: MQ9\Temp\UnityLockfile
     fullPath: C:\Users\William\Desktop\Git\MQ\MQ9\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
