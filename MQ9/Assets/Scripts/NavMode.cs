@@ -7,7 +7,7 @@ public class NavMode : MonoBehaviour
 {
 	public Button navMode;
 	Color32 operationalColor = new Color32(0, 255, 3, 255);
-	Color32 standardColor = new Color32(207, 207, 207, 255);
+	Color32 standardColor = new Color32(183, 183, 183, 255);
 	public GameObject navModeConfirmPopup;
 	public GameObject navModePopup;
 	public Text navModeDataText;
@@ -42,7 +42,7 @@ public class NavMode : MonoBehaviour
 	}
 	
 	public void turnOffNavMode() {
-		navMode.GetComponent<Image>().color = standardColor;
+		navMode.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
 		navModeBackgroundColor.GetComponent<Image>().color = standardColor;
 		navModeDataText.GetComponent<Text>().text = "Off";
 		navModeConfirmPopup.SetActive(false);
