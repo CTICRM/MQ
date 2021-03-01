@@ -13,17 +13,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-02-15T18:52:29.521-06:00
-  initializedAtString: 2021-02-15T17:51:51.230-06:00
+  lastUpdatedAtString: 2021-03-01T00:23:12.551-06:00
+  initializedAtString: 2021-02-28T21:12:12.166-06:00
   localBranches:
+  - name: Changes
+    tracking: origin/Changes
+  - name: joshua
+    tracking: origin/joshua
   - name: main
     tracking: origin/main
   - name: TestBranch
     tracking: origin/TestBranch
+  - name: Update-Tracker
+    tracking: origin/Update-Tracker
   remoteBranches:
+  - name: origin/Changes
+    tracking: '[None]'
+  - name: origin/joshua
+    tracking: '[None]'
   - name: origin/main
     tracking: '[None]'
   - name: origin/TestBranch
+    tracking: '[None]'
+  - name: origin/Update-Tracker
     tracking: '[None]'
   remotes:
   - name: origin
@@ -35,9 +47,22 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - Changes
+    - joshua
     - main
     - TestBranch
+    - Update-Tracker
     values:
+    - name: Changes
+      remote:
+        name: origin
+        url: https://github.com/CTICRM/MQ.git
+      trackingBranch: Changes
+    - name: joshua
+      remote:
+        name: origin
+        url: https://github.com/CTICRM/MQ.git
+      trackingBranch: joshua
     - name: main
       remote:
         name: origin
@@ -48,21 +73,44 @@ MonoBehaviour:
         name: origin
         url: https://github.com/CTICRM/MQ.git
       trackingBranch: TestBranch
+    - name: Update-Tracker
+      remote:
+        name: origin
+        url: https://github.com/CTICRM/MQ.git
+      trackingBranch: Update-Tracker
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - Changes
+      - joshua
       - main
       - TestBranch
+      - Update-Tracker
     subKeyValues:
     - Values:
+      - name: Changes
+        remote:
+          name: origin
+          url: https://github.com/CTICRM/MQ.git
+        trackingBranch: 
+      - name: joshua
+        remote:
+          name: origin
+          url: https://github.com/CTICRM/MQ.git
+        trackingBranch: 
       - name: main
         remote:
           name: origin
           url: https://github.com/CTICRM/MQ.git
         trackingBranch: 
       - name: TestBranch
+        remote:
+          name: origin
+          url: https://github.com/CTICRM/MQ.git
+        trackingBranch: 
+      - name: Update-Tracker
         remote:
           name: origin
           url: https://github.com/CTICRM/MQ.git
