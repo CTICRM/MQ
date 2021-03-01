@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: [Dialog]
+  tags:
+  - Dialog
+  - Entry
+  - ID Text
+  - Type Text
+  - Latitude Sec Text
+  - Longitude Sec Text
+  - Hidden Text
+  - Remarks Text
+  - Longitude Sec
+  - Hidden
+  - Remarks
   layers:
   - Default
   - TransparentFX
