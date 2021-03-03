@@ -4766,8 +4766,219 @@
   {
     "num": 23,
     "title": "INS Status Table",
-    "layout": "hard coded",
-    "htmlStr": "<div class=\\\"vit_colLt\\\"><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Err<\\/span><span class=\\\"vit_rowVal\\\">20<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">FCA1 AP Qual<\\/span><span class=\\\"vit_rowVal\\\">05<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Alt<\\/span><span class=\\\"vit_rowVal\\\">+25764<\\/span><span class=\\\"vit_rowUnits\\\">ft<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Lat<\\/span><span class=\\\"vit_rowVal\\\">36\u00B035'31.1\\\"N<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Long<\\/span><span class=\\\"vit_rowVal\\\">115\u00B038'36.6\\\"W<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">&nbsp;<\\/span><span class=\\\"vit_rowVal\\\">&nbsp;<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Pitch<\\/span><span class=\\\"vit_rowVal\\\">+0.56<\\/span><span class=\\\"vit_rowUnits\\\">\u00B0<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Roll<\\/span><span class=\\\"vit_rowVal\\\">-15.22<\\/span><span class=\\\"vit_rowUnits\\\">\u00B0<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Hdg<\\/span><span class=\\\"vit_rowVal\\\">263<\\/span><span class=\\\"vit_rowUnits\\\">\u00B0<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">&nbsp;<\\/span><span class=\\\"vit_rowVal\\\">&nbsp;<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Time<\\/span><span class=\\\"vit_rowVal\\\">322846<\\/span><span class=\\\"vit_rowUnits\\\">sec<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS P-rate<\\/span><span class=\\\"vit_rowVal\\\">0.00<\\/span><span class=\\\"vit_rowUnits\\\">\u00B0\\/s<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS R-rate<\\/span><span class=\\\"vit_rowVal\\\">0.00<\\/span><span class=\\\"vit_rowUnits\\\">\u00B0\\/s<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Y-rate<\\/span><span class=\\\"vit_rowVal\\\">-1.65<\\/span><span class=\\\"vit_rowUnits\\\">\u00B0\\/s<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">&nbsp;<\\/span><span class=\\\"vit_rowVal\\\">&nbsp;<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">GPS 1 Key Stat<\\/span><span class=\\\"vit_rowVal\\\">8880<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">H764 1<\\/span><span class=\\\"vit_rowVal\\\">Keyed<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">Msn 1 Duration<\\/span><span class=\\\"vit_rowVal\\\">44<\\/span><span class=\\\"vit_rowUnits\\\">days<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">AC ID<\\/span><span class=\\\"vit_rowVal\\\">0000<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Model<\\/span><span class=\\\"vit_rowVal\\\">03<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><\\/div><div class=\\\"vit_colRt\\\"><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">EGI Stat<\\/span><span class=\\\"vit_rowVal\\\">F7<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">FCA1 NAV Qual<\\/span><span class=\\\"vit_rowVal\\\">0B<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">GPS Alt<\\/span><span class=\\\"vit_rowVal\\\">25444<\\/span><span class=\\\"vit_rowUnits\\\">ft<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">GPS Lat<\\/span><span class=\\\"vit_rowVal\\\">30\u00B030'41.5\\\"N<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">GPS Long<\\/span><span class=\\\"vit_rowVal\\\">105\u00B040'18.5\\\"W<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">&nbsp;<\\/span><span class=\\\"vit_rowVal\\\">&nbsp;<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">Pitch Angle<\\/span><span class=\\\"vit_rowVal\\\">+0.4<\\/span><span class=\\\"vit_rowUnits\\\">\u00B0<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">Roll Angle<\\/span><span class=\\\"vit_rowVal\\\">-15.4<\\/span><span class=\\\"vit_rowUnits\\\">\u00B0<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">Hdg<\\/span><span class=\\\"vit_rowVal\\\">263<\\/span><span class=\\\"vit_rowUnits\\\">\u00B0<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">&nbsp;<\\/span><span class=\\\"vit_rowVal\\\">&nbsp;<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">GPS Time<\\/span><span class=\\\"vit_rowVal\\\">322830<\\/span><span class=\\\"vit_rowUnits\\\">sec<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Norm Acc<\\/span><span class=\\\"vit_rowVal\\\">+1.03<\\/span><span class=\\\"vit_rowUnits\\\">g<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Lat Acc<\\/span><span class=\\\"vit_rowVal\\\">+0.12<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS Long Acc<\\/span><span class=\\\"vit_rowVal\\\">+0.43<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">INS VSI<\\/span><span class=\\\"vit_rowVal\\\">+39<\\/span><span class=\\\"vit_rowUnits\\\">fpm<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">GPS Msn Time<\\/span><span class=\\\"vit_rowVal\\\">0<\\/span><span class=\\\"vit_rowUnits\\\">hrs<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">GPS FOM<\\/span><span class=\\\"vit_rowVal\\\">01<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">BIT ID<\\/span><span class=\\\"vit_rowVal\\\">0000<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">BIT WD1<\\/span><span class=\\\"vit_rowVal\\\">0000<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><div class=\\\"vit_row\\\"><span class=\\\"vit_rowName\\\">BIT WD2<\\/span><span class=\\\"vit_rowVal\\\">0000<\\/span><span class=\\\"vit_rowUnits\\\">&nbsp;<\\/span><\\/div><\\/div>"
+    "layout": "2Col",
+    "bind":false,
+    "fields":[
+      {
+        "varName": "INS Err",
+        "title": "INS Err",
+        "val": "20"
+      },
+      {
+        "varName": "FCA1 AP Qual",
+        "title": "FCA1 AP Qual",
+        "val": "05"
+      },
+      {
+        "varName": "INS Alt",
+        "title": "INS Alt",
+        "val": "+25764",
+        "units":"ft"
+      },
+      {
+        "varName": "INS Lat",
+        "title": "INS Lat",
+        "val": "36\u00B035'31.1\"N"
+      },
+      {
+        "varName": "INS Long",
+        "title": "INS Long",
+        "val": "115\u00B038'36.6\"W"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName": "INS Pitch",
+        "title": "INS Pitch",
+        "val": "+0.56",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "INS Roll",
+        "title": "INS Roll",
+        "val": "-15.22",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "INS Hdg",
+        "title": "INS Hdg",
+        "val": "263",
+        "units":"\u00B0"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName": "INS Time",
+        "title": "INS Time",
+        "val": "322846",
+        "units":"sec"
+      },
+      {
+        "varName": "INS P-rate",
+        "title": "INS P-rate",
+        "val": "0.00",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "INS R-rate",
+        "title": "INS R-rate",
+        "val": "0.00",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "INS Y-rate",
+        "title": "INS Y-rate",
+        "val": "-1.65",
+        "units":"\u00B0"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName": "GPS 1 Key Stat",
+        "title": "GPS 1 Key Stat",
+        "val": "8880"
+      },
+      {
+        "varName": "H764 1",
+        "title": "H764 1",
+        "val": "Keyed"
+      },
+      {
+        "varName": "Msn 1 Duration",
+        "title": "Msn 1 Duration",
+        "val": "44",
+        "units":"days"
+      },
+      {
+        "varName": "AC ID",
+        "title": "AC ID",
+        "val": "0000"
+      },
+      {
+        "varName": "INS Model",
+        "title": "INS Model",
+        "val": "03"
+      },
+      {
+        "varName": "EGI Stat",
+        "title": "EGI Stat",
+        "val": "F7"
+      },
+      {
+        "varName": "FCA1 NAV Qual",
+        "title": "FCA1 NAV Qual",
+        "val": "0B"
+      },
+      {
+        "varName": "GPS Alt",
+        "title": "GPS Alt",
+        "val": "25444",
+        "units":"ft"
+      },
+      {
+        "varName": "GPS Lat",
+        "title": "GPS Lat",
+        "val": "30\u00B030'41.1\"N"
+      },
+      {
+        "varName": "GPS Long",
+        "title": "GPS Long",
+        "val": "105\u00B040'18.5\"W"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName": "Pitch Angle",
+        "title": "Pitch Angle",
+        "val": "+0.04",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "Roll Angle",
+        "title": "Roll Angle",
+        "val": "-15.4",
+        "units":"\u00B0"
+      },
+      {
+        "varName": "Hdg",
+        "title": "Hdg",
+        "val": "263",
+        "units":"\u00B0"
+      },
+      {
+        "varName":"none"
+      },
+      {
+        "varName": "GPS Time",
+        "title": "GPS Time",
+        "val": "322830",
+        "units":"sec"
+      },
+      {
+        "varName": "INS Norm Acc",
+        "title": "INS Norm Acc",
+        "val": "+1.03",
+        "units":"g"
+      },
+      {
+        "varName": "INS Lat Acc",
+        "title": "INS Lat Acc",
+        "val": "+1.03",
+        "units":"g"
+      },
+      {
+        "varName": "INS Long Acc",
+        "title": "INS Long Acc",
+        "val": "+1.03",
+        "units":"g"
+      },
+      {
+        "varName": "INS VSI",
+        "title": "INS VSI",
+        "val": "+39",
+        "units":"fpm"
+      },
+      {
+        "varName": "GPS Msn Time",
+        "title": "GPS Msn Time",
+        "val": "0",
+        "units":"hrs"
+      },
+      {
+        "varName": "GPS FOM",
+        "title": "GPS FOM",
+        "val": "01"
+      },
+      {
+        "varName": "BIT ID",
+        "title": "BIT ID",
+        "val": "0000"
+      },
+      {
+        "varName": "BIT WD1",
+        "title": "BIT WD1",
+        "val": "0000"
+      },
+      {
+        "varName": "BIT WD2",
+        "title": "BIT WD2",
+        "val": "0000"
+      }
+    ]
   },
   {
     "num": 28,
