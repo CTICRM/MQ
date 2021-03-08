@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Houses all of the functions seen in the Mission Editor popup
+
 public class MissionEditor : MonoBehaviour
 {
 	public Button opButton;
@@ -10,8 +12,8 @@ public class MissionEditor : MonoBehaviour
 	public Button leftButton;
 	public Button rightButton;
 	public InputField waypointInput;
-	Color32 onColor = new Color32(0, 0, 0, 255);
-	Color32 offColor = new Color32(255, 255, 255, 255);
+	Color32 onColor = new Color32(0, 0, 0, 255); // The button is the selected one
+	Color32 offColor = new Color32(255, 255, 255, 255); // The buttons is not the selected one
 	
 	public void opChosen() {
 		opButton.GetComponent<Image>().color = onColor;

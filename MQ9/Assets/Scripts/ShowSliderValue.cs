@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Deals with the slider functionality seen in the 
+// Enerdyne Video Controls popup
+
 public class ShowSliderValue : MonoBehaviour
 {
 	public Slider brightness;

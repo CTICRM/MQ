@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Houses all of the functions seen in the Collection List popup
+
 public class CollectionList : MonoBehaviour
 {
 	public InputField id;
@@ -27,6 +29,9 @@ public class CollectionList : MonoBehaviour
 	List<string> usedIDs = new List<string>();
 	float posY = 0.0f;
 	
+	// Adds a new entry created by the user; if the user makes an entry with an ID
+	// that has already been used, an error popup appears telling them that their
+	// chosen ID has been used and does not create a new entry
 	public void addEntry() {
 		if (!usedIDs.Contains(id.text)) {
 			usedIDs.Add(id.text);

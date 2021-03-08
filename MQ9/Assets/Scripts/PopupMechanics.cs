@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Deals with the popup mechanics for the Config button seen
+// at the bottom of the sidebar
+
 public class PopupMechanics : MonoBehaviour
 {
 	public GameObject configObject;
@@ -31,6 +34,8 @@ public class PopupMechanics : MonoBehaviour
 	GameObject inGameToggle;
 	Color selectedColor = new Color32(0, 34, 255, 255);
 	
+	// When the config popup is open, this function disables the sidebar 
+	// buttons and gets the toggle in its popup
 	public void openConfig() {
 		configObject.SetActive(true);
 		trackerObject.SetActive(false);
@@ -64,6 +69,9 @@ public class PopupMechanics : MonoBehaviour
 		MFD_Object.SetActive(false);
     }
 	
+	// Returns the user to their previous work; if the toggle button is
+	// clicked when the user presses the Ok button, users can no longer
+	// open the config popup
 	void closeConfig() {
 		configObject.SetActive(false);
 		pilotButton.GetComponent<Button>().interactable = true;

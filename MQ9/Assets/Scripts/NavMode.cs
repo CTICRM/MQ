@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Deals with turning Nav Mode on and off
+
 public class NavMode : MonoBehaviour
 {
 	public Button navMode;
-	Color32 operationalColor = new Color32(0, 255, 3, 255);
-	Color32 standardColor = new Color32(183, 183, 183, 255);
+	Color32 operationalColor = new Color32(0, 255, 3, 255); // Nav Mode is on
+	Color32 standardColor = new Color32(183, 183, 183, 255); // Nav Mode is off
 	public GameObject navModeConfirmPopup;
 	public GameObject navModePopup;
 	public Text navModeDataText;
@@ -21,6 +23,7 @@ public class NavMode : MonoBehaviour
 		navModeDataText.GetComponent<Text>().text = "Operational";
     }
 	
+	// Updates the isOn variable depending on which of the on/off colors is being used
 	void Update() {
 		if (navModeBackgroundColor.GetComponent<Image>().color == operationalColor) {
 			isOn = true;
@@ -29,7 +32,7 @@ public class NavMode : MonoBehaviour
 			isOn = false;
 		}
 	}
-
+	
     public void turnOnConfirm() {
 		if (isOn == true) {
 			navModeConfirmPopup.SetActive(true);

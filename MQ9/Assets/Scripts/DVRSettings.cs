@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Houses all of the functions seen in the DVR Settings popup
+
 public class DVRSettings : MonoBehaviour
 {
 	public Button uplinkEnabled;
@@ -18,8 +20,8 @@ public class DVRSettings : MonoBehaviour
 	public InputField recordSettings_uplinkAddress;
 	public InputField recordSettings_downlinkAddress;
 	static int timeToLiveValue = 3;
-	Color32 onColor = new Color32(0, 0, 0, 255);
-	Color32 offColor = new Color32(255, 255, 255, 255);
+	Color32 onColor = new Color32(0, 0, 0, 255); // The button is the selected one
+	Color32 offColor = new Color32(255, 255, 255, 255); // The button is no longer the selected one
 	
     // Start is called before the first frame update
     void Start()

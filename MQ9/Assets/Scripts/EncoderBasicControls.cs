@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Houses all of the functions seen in the Encoder Basic Controls popup
+
 public class EncoderBasicControls : MonoBehaviour
 {
 	public InputField minQuantIInput;
@@ -19,8 +21,8 @@ public class EncoderBasicControls : MonoBehaviour
 	static int minQuantPValue = 5;
 	static int maxQuantIValue = 50;
 	static int maxQuantPValue = 50;
-	Color32 onColor = new Color32(0, 0, 0, 255);
-	Color32 offColor = new Color32(255, 255, 255, 255);
+	Color32 onColor = new Color32(0, 0, 0, 255); // The button is the selected one
+	Color32 offColor = new Color32(255, 255, 255, 255); // The button is no longer the selected one
 	
 	void Start() {
 		minQuantIInput.text = minQuantIValue.ToString();

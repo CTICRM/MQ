@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Zooms in and out of the map
+
 public class Zoom : MonoBehaviour
 {
     public Image map;
@@ -20,13 +22,15 @@ public class Zoom : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //map.rectTransform.localScale = max;
+		// Starts with the map being already zoomed in as much as it can,
+		// making the Zoom In button and dropdown button disabled
 		zoomIn.GetComponent<Button>().interactable = false;
 		zoomOut.GetComponent<Button>().interactable = true;
 		zoomInDropdown.GetComponent<Button>().interactable = false;
 		zoomOutDropdown.GetComponent<Button>().interactable = true;
     }
 	
+	// Zooms out by decreasing the map's scale values
 	public void zoomOutMap() {
 		if (map.rectTransform.localScale == max) {
 			map.rectTransform.localScale = maxMinusOne;
@@ -52,6 +56,7 @@ public class Zoom : MonoBehaviour
 		}
 	}
 	
+	// Zooms in by increasing the map's scale values
 	public void zoomInMap() {
 		if (map.rectTransform.localScale == min) {
 			map.rectTransform.localScale = minPlusOne;

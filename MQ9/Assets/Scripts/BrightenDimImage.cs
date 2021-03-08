@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Brightens/Dims the map by changing the map's color
+
 public class BrightenDimImage : MonoBehaviour
 {
     public Image map;
@@ -27,6 +29,9 @@ public class BrightenDimImage : MonoBehaviour
 		brightenDropdown.GetComponent<Button>().interactable = true;
     }
 
+	// Dims the map; the buttons associated with dimming the map become uninteractable
+	// once the map has reached its dimmest setting; makes the brighten buttons
+	// interactable when the map is no longer at its brightest value
     public void dimMap() {
 		if (map.GetComponent<Image>().color == max) {
 			map.GetComponent<Image>().color = maxMinusOne;
@@ -52,6 +57,9 @@ public class BrightenDimImage : MonoBehaviour
 		}
 	}
 	
+	// Brightens the map; the buttons associated with brightening the map become
+	// uninteractable once the map has reached its brightest setting; makes the
+	// dimming buttons interactable when the map is no longer at its brightest value
 	public void brightenMap() {
 		if (map.GetComponent<Image>().color == dimmest) {
 			map.GetComponent<Image>().color = dimPlusOne;

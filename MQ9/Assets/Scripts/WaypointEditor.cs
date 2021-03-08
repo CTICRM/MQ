@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Houses all of the functions seen in the Waypoint Editor popup
+
 public class WaypointEditor : MonoBehaviour
 {
 	public InputField waypointNumber;
@@ -53,11 +55,12 @@ public class WaypointEditor : MonoBehaviour
 	bool modeTwoOn = false;
 	bool modeThreeOn = true;
 	bool modeFourOn = false;
-	Color32 onColor = new Color32(0, 0, 0, 255);
-	Color32 offColor = new Color32(207, 207, 207, 255);
+	Color32 onColor = new Color32(0, 0, 0, 255); // The button is selected
+	Color32 offColor = new Color32(207, 207, 207, 255); // The button is no longer selected
 	
 	private void Start() {
 		waypointNumber.text = "001";
+		// Changes which coordinate system the user is using
 		ddCoordinateSystem.onValueChanged.AddListener(delegate {
 			ddCoordinateSystemValueChanged(ddCoordinateSystem);
 		});
@@ -74,6 +77,8 @@ public class WaypointEditor : MonoBehaviour
 		arrivalInputOne.interactable = false;
 		arrivalInputTwo.text = "1";
 		arrivalInputTwo.interactable = false;
+		// Make some InputFields and Buttons uninteractable and others interactable
+		// when a certain option from the Loiter Pattern dropdown is selected
 		ddLoiterPattern.onValueChanged.AddListener(delegate {
 			ddLoiterPatternValueChanged(ddLoiterPattern);
 		});
@@ -96,6 +101,7 @@ public class WaypointEditor : MonoBehaviour
 		modeThreeAC.text = "1200";
 	}
 	
+	// Changes which coordinate system the user is using
 	public void ddCoordinateSystemValueChanged(Dropdown sender) {
 		if (sender.options[sender.value].text == "Lat/Lon Sec") {
 			latLonSec.SetActive(true);
@@ -123,6 +129,8 @@ public class WaypointEditor : MonoBehaviour
 		}
 	}
 	
+	// Make some InputFields and Buttons uninteractable and others interactable
+	// when a certain option from the Loiter Pattern dropdown is selected
 	public void ddLoiterPatternValueChanged(Dropdown sender) {
 		if (sender.options[sender.value].text == "None") {
 			lengthInput.interactable = false;

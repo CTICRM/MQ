@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Deals with the functions that can move the map up, down,
+// left, and right
+
 public class MoveMap : MonoBehaviour
 {
     GameObject map;

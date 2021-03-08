@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Houses all of the functions seen in the Ku SATCOM Configuration popup
+
 public class KuSATCOMConfiguration : MonoBehaviour
 {
 	public Button airborneModemOnOff;
@@ -64,8 +66,8 @@ public class KuSATCOMConfiguration : MonoBehaviour
 	static int qualityLimitValue = 2;
 	static int desiredQualityValue = 2;
 	static int bitRateValue = 3000000;
-	Color32 onBlack = new Color32(0, 0, 0, 255);
-	Color32 offWhite = new Color32(255, 255, 255, 255);
+	Color32 onBlack = new Color32(0, 0, 0, 255); // The button is the selected one
+	Color32 offWhite = new Color32(255, 255, 255, 255); // The button is no longer the selected one
 	bool applyClicked = true;
     // Start is called before the first frame update
     void Start()
@@ -82,20 +84,14 @@ public class KuSATCOMConfiguration : MonoBehaviour
 		desiredQuality.text = desiredQualityValue.ToString();
 		bitRate.text = bitRateValue.ToString();
 		Button btn = apply.GetComponent<Button>();
+		// Changes the applyClicked boolean from false to true
 		btn.onClick.AddListener(applyClick);
     }
 
     // Update is called once per frame
     void Update()
     {
-        /* if (rlTx.GetComponentInChildren<Text>().text == "Enabled" && applyClicked) {
-			rlTx.GetComponentInChildren<Text>().text = "Disabled";
-			applyClicked = false;
-		}
-		else if (rlTx.GetComponentInChildren<Text>().text == "Disabled" && applyClicked) {
-			rlTx.GetComponentInChildren<Text>().text = "Enabled";
-			applyClicked = false;
-		} */
+        
     }
 	
 	public void airborneModemClick() {
@@ -107,36 +103,33 @@ public class KuSATCOMConfiguration : MonoBehaviour
 		}
 	}
 	
+	// Whenever users click the CL Data button, they can't change the button's text
+	// until they click the apply button
 	public void clDataClick() {
 		if (clData.GetComponentInChildren<Text>().text == "Enabled" && applyClicked == true) {
 			clData.GetComponentInChildren<Text>().text = "Disabled";
 			applyClicked = false;
-			Debug.Log("CL Data Button is Disabled");
-			//Debug.Log(applyClicked);
 		}
 		else if (clData.GetComponentInChildren<Text>().text == "Disabled" && applyClicked == true) {
 			clData.GetComponentInChildren<Text>().text = "Enabled";
 			applyClicked = false;
-			Debug.Log("CL Data Button is Enabled");
-			//Debug.Log(applyClicked);
 		}
 	}
 	
+	// Whenever users click the RL Tx button, they can't change the button's text
+	// until they click the apply button
 	public void rlTxClick() {
 		if (rlTx.GetComponentInChildren<Text>().text == "Enabled" && applyClicked == true) {
 			rlTx.GetComponentInChildren<Text>().text = "Disabled";
 			applyClicked = false;
-			Debug.Log("RL TX Button is Disabled");
-			//Debug.Log(applyClicked);
 		}
 		else if (rlTx.GetComponentInChildren<Text>().text == "Disabled" && applyClicked == true) {
 			rlTx.GetComponentInChildren<Text>().text = "Enabled";
 			applyClicked = false;
-			Debug.Log("RL TX Button is Enabled");
-			//Debug.Log(applyClicked);
 		}
 	}
 	
+	// Changes the applyClicked boolean from false to true
 	void applyClick() {
 		applyClicked = true;
 	}

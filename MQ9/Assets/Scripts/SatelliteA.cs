@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Houses the functions for Satellite A found in the Ku SATCOM
+// Configuration popup
+
 public class SatelliteA : MonoBehaviour
 {
 	public InputField satACLFrequency;
@@ -65,8 +68,8 @@ public class SatelliteA : MonoBehaviour
 	static float satACLFrequencyValue = 12000.250f;
 	static float satARLFrequencyValue = 14000.250f;
 	static int satAPNCodeValue = 0;
-	Color32 onBlack = new Color32(0, 0, 0, 255);
-	Color32 offWhite = new Color32(255, 255, 255, 255);
+	Color32 onBlack = new Color32(0, 0, 0, 255); // The button is selected
+	Color32 offWhite = new Color32(255, 255, 255, 255); // The button is no longer selected
     // Start is called before the first frame update
     void Start()
     {

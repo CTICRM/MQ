@@ -4,6 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Deals with the different options users can select from the middle of
+// the sidebar (Tracker, HUD, Status Screen, Command Screen, SMS, and MFD),
+// as well as the different positions they can choose from the top of the
+// sidebar (Pilot and SO)
+
 public class ColorChange : MonoBehaviour
 {
 	public Button pilot;
@@ -60,6 +65,7 @@ public class ColorChange : MonoBehaviour
 		StartCoroutine(updateClock());
     }
 	
+	// Shows users the clock seen in HUD when SO is selected
 	IEnumerator updateClock() {
 		while (true) {
 			saveUtcNow = saveUtcNow.AddSeconds(1);

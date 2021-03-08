@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Houses all of the functions seen in the ARC 210 Control popup
+
 public class ARC210Control : MonoBehaviour
 {
 	public Button radioOne;
@@ -20,11 +22,13 @@ public class ARC210Control : MonoBehaviour
 	public Button receiverSensitivity;
 	public Button sqTone;
 	public Button lowPower;
-	Color32 onColor = new Color32(0, 0, 0, 255);
-	Color32 offColor = new Color32(255, 255, 255, 255);
+	Color32 onColor = new Color32(0, 0, 0, 255); // The button is the selected one
+	Color32 offColor = new Color32(255, 255, 255, 255); // The button is no longer the selected one
     // Start is called before the first frame update
     private void Start()
     {
+		// Make some InputFields unable to be interacted with and others interactable
+		// when a certain option from the Operational Mode dropdown is selected
         ddOperationalMode.onValueChanged.AddListener(delegate {
 			ddOperationalModeValueChanged(ddOperationalMode);
 		});

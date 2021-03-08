@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Houses the functions for the Video Multiplexer popup
+
 public class VideoMultiplexer : MonoBehaviour
 {
 	public Button noseED_SATCOMOne;
@@ -60,16 +62,17 @@ public class VideoMultiplexer : MonoBehaviour
 	public GameObject hudIntTwo_COLUPPERLOS;
 	public GameObject hudIntOne_COLLOWERLOS;
 	public GameObject hudIntTwo_COLLOWERLOS;
-	Color32 hudGreen = new Color32(1, 113, 0, 255);
-	Color32 dvrOrange = new Color32(255, 107, 0, 255);
-	Color32 onBlue = new Color32(3, 0, 255, 255);
-	Color32 offGray = new Color32(207, 207, 207, 255);
-	Color32 waitingYellow = new Color32(216, 255, 0, 255);
+	Color32 hudGreen = new Color32(1, 113, 0, 255); // One of the bottom buttons are connected to a HUD connection
+	Color32 dvrOrange = new Color32(255, 107, 0, 255); // One of the bottom buttons are connected to a DVR connection
+	Color32 onBlue = new Color32(3, 0, 255, 255); // One of the many top buttons are on
+	Color32 offGray = new Color32(207, 207, 207, 255); // One of the many top buttons are off
+	Color32 waitingYellow = new Color32(216, 255, 0, 255); // One of the bottom buttons are waiting for either a HUD or a DVR connection
 	string currHUDActive;
 	string currDVRActive;
     // Start is called before the first frame update
     void Start()
     {
+		// These strings are used to tell which HUD and DVR connections are active
 		currHUDActive = "HUD -> EXT2";
 		currDVRActive = "DVR -> HUD";
     }
@@ -371,6 +374,7 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Using the Update() function to keep up with which HUD and DVR connections are active
 	void Update() {
 		if (hudIntOne_SATCOM.activeSelf == true) {
 			currHUDActive = "HUD -> INT1 (SATCOM)";
@@ -429,6 +433,11 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes SATCOM's INT1 button to yellow until either HUD or DVR is clicked.
+	// Supposed to keep track of which bottom buttons already have a HUD or DVR
+	// connection so that if a user clicks on another bottom button and the
+	// previous bottom button already had a HUD or DVR connection, it will revert
+	// back to its associated color
 	public void intOne_SATCOM_Wait() {
 		intOne_SATCOM.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT2 (SATCOM)" && currDVRActive != "DVR -> INT2 (SATCOM)") {
@@ -512,6 +521,11 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes SATCOM's INT2 button to yellow until either HUD or DVR is clicked.
+	// Supposed to keep track of which bottom buttons already have a HUD or DVR
+	// connection so that if a user clicks on another bottom button and the
+	// previous bottom button already had a HUD or DVR connection, it will revert
+	// back to its associated color
 	public void intTwo_SATCOM_Wait() {
 		intTwo_SATCOM.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "DVR -> INT1 (SATCOM)") {
@@ -595,6 +609,11 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes SATCOM's EXT2 button to yellow until either HUD or DVR is clicked.
+	// Supposed to keep track of which bottom buttons already have a HUD or DVR
+	// connection so that if a user clicks on another bottom button and the
+	// previous bottom button already had a HUD or DVR connection, it will revert
+	// back to its associated color
 	public void extTwo_Wait() {
 		extTwo.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "DVR -> INT1 (SATCOM)") {
@@ -678,6 +697,11 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes C-Band's TX1 button to yellow until either HUD or DVR is clicked.
+	// Supposed to keep track of which bottom buttons already have a HUD or DVR
+	// connection so that if a user clicks on another bottom button and the
+	// previous bottom button already had a HUD or DVR connection, it will revert
+	// back to its associated color
 	public void txOne_Wait() {
 		txOne.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
@@ -761,6 +785,11 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes C-Band's TX2 button to yellow until either HUD or DVR is clicked.
+	// Supposed to keep track of which bottom buttons already have a HUD or DVR
+	// connection so that if a user clicks on another bottom button and the
+	// previous bottom button already had a HUD or DVR connection, it will revert
+	// back to its associated color
 	public void txTwo_Wait() {
 		txTwo.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
@@ -844,6 +873,11 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes COL UPPER LOS's INT1 button to yellow until either HUD or DVR is clicked.
+	// Supposed to keep track of which bottom buttons already have a HUD or DVR
+	// connection so that if a user clicks on another bottom button and the
+	// previous bottom button already had a HUD or DVR connection, it will revert
+	// back to its associated color
 	public void intOne_COLUPPERLOS_Wait() {
 		intOne_COLUPPERLOS.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
@@ -927,6 +961,11 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes COL UPPER LOS's INT2 button to yellow until either HUD or DVR is clicked.
+	// Supposed to keep track of which bottom buttons already have a HUD or DVR
+	// connection so that if a user clicks on another bottom button and the
+	// previous bottom button already had a HUD or DVR connection, it will revert
+	// back to its associated color
 	public void intTwo_COLUPPERLOS_Wait() {
 		intTwo_COLUPPERLOS.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
@@ -1010,6 +1049,11 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes COL LOWER LOS's INT1 button to yellow until either HUD or DVR is clicked.
+	// Supposed to keep track of which bottom buttons already have a HUD or DVR
+	// connection so that if a user clicks on another bottom button and the
+	// previous bottom button already had a HUD or DVR connection, it will revert
+	// back to its associated color
 	public void intOne_COLLOWERLOS_Wait() {
 		intOne_COLLOWERLOS.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
@@ -1093,6 +1137,11 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes COL LOWER LOS's INT2 button to yellow until either HUD or DVR is clicked.
+	// Supposed to keep track of which bottom buttons already have a HUD or DVR
+	// connection so that if a user clicks on another bottom button and the
+	// previous bottom button already had a HUD or DVR connection, it will revert
+	// back to its associated color
 	public void intTwo_COLLOWERLOS_Wait() {
 		intTwo_COLLOWERLOS.GetComponent<Image>().color = waitingYellow;
 		if (currHUDActive == "HUD -> INT1 (SATCOM)" && currDVRActive != "HUD -> INT1 (SATCOM)") {
@@ -1176,6 +1225,7 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes a bottom button's color to green (for a HUD connection)
 	public void hudClick() {
 		if (intOne_SATCOM.GetComponent<Image>().color == waitingYellow) {
 			intOne_SATCOM.GetComponent<Image>().color = hudGreen;
@@ -1512,6 +1562,7 @@ public class VideoMultiplexer : MonoBehaviour
 		}
 	}
 	
+	// Changes a bottom button's color to orange (for a DVR connection)
 	public void dvrClick() {
 		if (intOne_SATCOM.GetComponent<Image>().color == waitingYellow) {
 			intOne_SATCOM.GetComponent<Image>().color = dvrOrange;

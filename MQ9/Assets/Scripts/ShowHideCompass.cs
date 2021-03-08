@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Shows/Hides the compass image found in Tracker
+
 public class ShowHideCompass : MonoBehaviour
 {
 	GameObject compass;
@@ -13,6 +15,9 @@ public class ShowHideCompass : MonoBehaviour
 		compass = GameObject.Find("Compass Image");
     }
 	
+	// If the compass's activeSelf is true, it turns the
+	// compass, as well as the active icon, off; else, it
+	// turns both of them on
 	public void compassVisibility() {
 		if (compass.activeSelf == true) {
 			compass.SetActive(false);
