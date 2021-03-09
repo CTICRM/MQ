@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-03-01T14:47:27.045-06:00
-  initializedAtString: 2021-03-01T14:47:27.045-06:00
+  lastUpdatedAtString: 2021-03-08T08:46:15.509-06:00
+  initializedAtString: 2021-03-08T08:46:13.189-06:00
   entries:
   - path: MQ9\Library\ArtifactDB
     fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Library\ArtifactDB
@@ -22,15 +22,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Library\Artifacts\47\47ab41384214b6f6f185ff465fe18c42
-    fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Library\Artifacts\47\47ab41384214b6f6f185ff465fe18c42
-    projectPath: Library\Artifacts\47\47ab41384214b6f6f185ff465fe18c42
+  - path: MQ9\Library\Artifacts\3e\3e173ebd626da02db98153ac60cb9d91
+    fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Library\Artifacts\3e\3e173ebd626da02db98153ac60cb9d91
+    projectPath: Library\Artifacts\3e\3e173ebd626da02db98153ac60cb9d91
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: MQ9\Library\EditorInstance.json
     fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -46,15 +70,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: MQ9\Temp\UnityLockfile
     fullPath: C:\Users\jsteward\Documents\GitHub\MQ\MQ9\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
