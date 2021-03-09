@@ -224,4 +224,43 @@ public class H264AdvancedControls : MonoBehaviour
 		}
 		pmtPID.text = pmtPIDValue.ToString();
 	}
+	
+	public void tsPacketsUDPIncrement() {
+		tsPacketsUDPValue++;
+		tsPacketsUDP.text = tsPacketsUDPValue.ToString();
+	}
+	
+	public void tsPacketsUDPDecrement() {
+		tsPacketsUDPValue--;
+		if (tsPacketsUDPValue <= 0) {
+			tsPacketsUDPValue = 0;
+		}
+		tsPacketsUDP.text = tsPacketsUDPValue.ToString();
+	}
+	
+	public void timeToLiveIncrement() {
+		timeToLiveValue++;
+		timeToLive.text = timeToLiveValue.ToString();
+	}
+	
+	public void timeToLiveDecrement() {
+		timeToLiveValue--;
+		if (timeToLiveValue <= 0) {
+			timeToLiveValue = 0;
+		}
+		timeToLive.text = timeToLiveValue.ToString();
+	}
+	
+	public void tosOctetIncrement() {
+		tosOctetValue++;
+		tosOctet.text = tosOctetValue.ToString();
+	}
+	
+	public void tosOctetDecrement() {
+		tosOctetValue--;
+		if (tosOctetValue <= 0) {
+			tosOctetValue = 0;
+		}
+		tosOctet.text = tosOctetValue.ToString();
+	}
 }

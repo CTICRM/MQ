@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-03-08T16:32:32.957-06:00
-  initializedAtString: 2021-03-08T07:41:44.035-06:00
+  lastUpdatedAtString: 2021-03-09T16:21:33.679-06:00
+  initializedAtString: 2021-03-09T08:01:56.464-06:00
   entries:
   - path: MQ9\Assets\Scenes\Main.unity
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scenes\Main.unity
@@ -22,141 +22,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\ARC210Control.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\ARC210Control.cs
-    projectPath: Assets\Scripts\ARC210Control.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\BrightenDimImage.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\BrightenDimImage.cs
-    projectPath: Assets\Scripts\BrightenDimImage.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\CollectionList.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\CollectionList.cs
-    projectPath: Assets\Scripts\CollectionList.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\ColorChange.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\ColorChange.cs
-    projectPath: Assets\Scripts\ColorChange.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\DismissDialogs.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\DismissDialogs.cs
-    projectPath: Assets\Scripts\DismissDialogs.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\DragMap.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\DragMap.cs
-    projectPath: Assets\Scripts\DragMap.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\DVRSettings.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\DVRSettings.cs
-    projectPath: Assets\Scripts\DVRSettings.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\EncoderBasicControls.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\EncoderBasicControls.cs
-    projectPath: Assets\Scripts\EncoderBasicControls.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: MQ9\Assets\Scripts\H264AdvancedControls.cs
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\H264AdvancedControls.cs
     projectPath: Assets\Scripts\H264AdvancedControls.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Assets\Scripts\H264AdvancedControls.cs.meta
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\H264AdvancedControls.cs.meta
-    projectPath: Assets\Scripts\H264AdvancedControls.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Assets\Scripts\KuSATCOMConfiguration.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\KuSATCOMConfiguration.cs
-    projectPath: Assets\Scripts\KuSATCOMConfiguration.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\MissionEditor.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\MissionEditor.cs
-    projectPath: Assets\Scripts\MissionEditor.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\MoveMap.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\MoveMap.cs
-    projectPath: Assets\Scripts\MoveMap.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\NavMode.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\NavMode.cs
-    projectPath: Assets\Scripts\NavMode.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\PopupMechanics.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\PopupMechanics.cs
-    projectPath: Assets\Scripts\PopupMechanics.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\SatelliteA.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\SatelliteA.cs
-    projectPath: Assets\Scripts\SatelliteA.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\SatelliteB.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\SatelliteB.cs
-    projectPath: Assets\Scripts\SatelliteB.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\SatelliteC.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\SatelliteC.cs
-    projectPath: Assets\Scripts\SatelliteC.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\ShowHideCompass.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\ShowHideCompass.cs
-    projectPath: Assets\Scripts\ShowHideCompass.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\ShowSliderValue.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\ShowSliderValue.cs
-    projectPath: Assets\Scripts\ShowSliderValue.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\VideoMultiplexer.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\VideoMultiplexer.cs
-    projectPath: Assets\Scripts\VideoMultiplexer.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\WaypointEditor.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\WaypointEditor.cs
-    projectPath: Assets\Scripts\WaypointEditor.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\Zoom.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\Zoom.cs
-    projectPath: Assets\Scripts\Zoom.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -166,360 +34,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Library\Artifacts\00\00b5ee63b4a9c4ef1b320d4b9988911c
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\00\00b5ee63b4a9c4ef1b320d4b9988911c
-    projectPath: Library\Artifacts\00\00b5ee63b4a9c4ef1b320d4b9988911c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\03\0392613c617ed424b8ba42d236fd6519
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\03\0392613c617ed424b8ba42d236fd6519
-    projectPath: Library\Artifacts\03\0392613c617ed424b8ba42d236fd6519
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\05\058ec175177ef989f0c709a8e72b74ca
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\05\058ec175177ef989f0c709a8e72b74ca
-    projectPath: Library\Artifacts\05\058ec175177ef989f0c709a8e72b74ca
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\17\17df6dca4c2443b40b3077f9b125d6cf
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\17\17df6dca4c2443b40b3077f9b125d6cf
-    projectPath: Library\Artifacts\17\17df6dca4c2443b40b3077f9b125d6cf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\1c\1c5c7583b84c924de0365009824c150f
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\1c\1c5c7583b84c924de0365009824c150f
-    projectPath: Library\Artifacts\1c\1c5c7583b84c924de0365009824c150f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\1d\1dc793ddc8452d381a4b9b31f9371103
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\1d\1dc793ddc8452d381a4b9b31f9371103
-    projectPath: Library\Artifacts\1d\1dc793ddc8452d381a4b9b31f9371103
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\23\235d1e9489454c0d1011f30ce77c8c4d
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\23\235d1e9489454c0d1011f30ce77c8c4d
-    projectPath: Library\Artifacts\23\235d1e9489454c0d1011f30ce77c8c4d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\29\29ab26a33f1258627abaed17d192bdb6
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\29\29ab26a33f1258627abaed17d192bdb6
-    projectPath: Library\Artifacts\29\29ab26a33f1258627abaed17d192bdb6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\2a\2a178a917691a8a53b8d0ce278bc75ab
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\2a\2a178a917691a8a53b8d0ce278bc75ab
-    projectPath: Library\Artifacts\2a\2a178a917691a8a53b8d0ce278bc75ab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\32\323148a632a635726e86fed58fccb841
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\32\323148a632a635726e86fed58fccb841
-    projectPath: Library\Artifacts\32\323148a632a635726e86fed58fccb841
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\35\35b8993af0dee1c45308303b40f40c66
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\35\35b8993af0dee1c45308303b40f40c66
-    projectPath: Library\Artifacts\35\35b8993af0dee1c45308303b40f40c66
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\36\36c7fdaa6917d827cb4bc6e09f7ed9c1
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\36\36c7fdaa6917d827cb4bc6e09f7ed9c1
-    projectPath: Library\Artifacts\36\36c7fdaa6917d827cb4bc6e09f7ed9c1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\39\39f6241239f45c896ba2b5422abdbd79
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\39\39f6241239f45c896ba2b5422abdbd79
-    projectPath: Library\Artifacts\39\39f6241239f45c896ba2b5422abdbd79
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\3a\3a45109b115e1a7755068b262237faab
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\3a\3a45109b115e1a7755068b262237faab
-    projectPath: Library\Artifacts\3a\3a45109b115e1a7755068b262237faab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\3e\3e10120da0382e070b75148271b7e895
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\3e\3e10120da0382e070b75148271b7e895
-    projectPath: Library\Artifacts\3e\3e10120da0382e070b75148271b7e895
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\3f\3f3cb63014479e2ba7891ff858ae9241
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\3f\3f3cb63014479e2ba7891ff858ae9241
-    projectPath: Library\Artifacts\3f\3f3cb63014479e2ba7891ff858ae9241
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\42\42cd2784440fe80bb0b3e47dcc9eb3e1
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\42\42cd2784440fe80bb0b3e47dcc9eb3e1
-    projectPath: Library\Artifacts\42\42cd2784440fe80bb0b3e47dcc9eb3e1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\46\466612a71faffc3bc5f2e3d114b284ef
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\46\466612a71faffc3bc5f2e3d114b284ef
-    projectPath: Library\Artifacts\46\466612a71faffc3bc5f2e3d114b284ef
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\46\46a57e02ec84745beee4af44f6923e52
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\46\46a57e02ec84745beee4af44f6923e52
-    projectPath: Library\Artifacts\46\46a57e02ec84745beee4af44f6923e52
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\47\4736eb71ff5a1a8350d8dbf08dd0279f
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\47\4736eb71ff5a1a8350d8dbf08dd0279f
-    projectPath: Library\Artifacts\47\4736eb71ff5a1a8350d8dbf08dd0279f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\48\4810f83a28c42d660bb05024c30eb85d
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\48\4810f83a28c42d660bb05024c30eb85d
-    projectPath: Library\Artifacts\48\4810f83a28c42d660bb05024c30eb85d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\4b\4b7e152e21e366a0483273d3c46e92fc
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\4b\4b7e152e21e366a0483273d3c46e92fc
-    projectPath: Library\Artifacts\4b\4b7e152e21e366a0483273d3c46e92fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\4d\4d1ce6d1979a7aac5b01b170c6224627
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\4d\4d1ce6d1979a7aac5b01b170c6224627
-    projectPath: Library\Artifacts\4d\4d1ce6d1979a7aac5b01b170c6224627
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\58\589860d56fef0daa155719b7f2e5c773
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\58\589860d56fef0daa155719b7f2e5c773
-    projectPath: Library\Artifacts\58\589860d56fef0daa155719b7f2e5c773
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\5a\5a44bd0da5be7b1d293db6ae16752e8d
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\5a\5a44bd0da5be7b1d293db6ae16752e8d
-    projectPath: Library\Artifacts\5a\5a44bd0da5be7b1d293db6ae16752e8d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\5a\5a92852e276d88e7f3f4c18bc2fcde1f
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\5a\5a92852e276d88e7f3f4c18bc2fcde1f
-    projectPath: Library\Artifacts\5a\5a92852e276d88e7f3f4c18bc2fcde1f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\5f\5f14ab430097f66eac72a60cad2b15e9
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\5f\5f14ab430097f66eac72a60cad2b15e9
-    projectPath: Library\Artifacts\5f\5f14ab430097f66eac72a60cad2b15e9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\61\6158f0ccfa1e42cd8768796e0477a3c5
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\61\6158f0ccfa1e42cd8768796e0477a3c5
-    projectPath: Library\Artifacts\61\6158f0ccfa1e42cd8768796e0477a3c5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\62\62f90652dbf0126d1e216d168e079ebc
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\62\62f90652dbf0126d1e216d168e079ebc
-    projectPath: Library\Artifacts\62\62f90652dbf0126d1e216d168e079ebc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\6f\6f9ce0ce5990b403e47aaf82c366b07f
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\6f\6f9ce0ce5990b403e47aaf82c366b07f
-    projectPath: Library\Artifacts\6f\6f9ce0ce5990b403e47aaf82c366b07f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\7d\7d3864a84061f475500e10629f166a01
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\7d\7d3864a84061f475500e10629f166a01
-    projectPath: Library\Artifacts\7d\7d3864a84061f475500e10629f166a01
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\81\815b2fff5e219b59bb70cfdb208dea8d
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\81\815b2fff5e219b59bb70cfdb208dea8d
-    projectPath: Library\Artifacts\81\815b2fff5e219b59bb70cfdb208dea8d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\8d\8d2124c2d0676ebef0b792c44c83a8f7
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\8d\8d2124c2d0676ebef0b792c44c83a8f7
-    projectPath: Library\Artifacts\8d\8d2124c2d0676ebef0b792c44c83a8f7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: MQ9\Library\Artifacts\8d\8d3cdaa020dfaf37896ea439932ee160
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\8d\8d3cdaa020dfaf37896ea439932ee160
     projectPath: Library\Artifacts\8d\8d3cdaa020dfaf37896ea439932ee160
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\90\90c049c76301d2f470e6b5694da2c2c0
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\90\90c049c76301d2f470e6b5694da2c2c0
-    projectPath: Library\Artifacts\90\90c049c76301d2f470e6b5694da2c2c0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\98\988a7197118cae51ed3886329cce017d
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\98\988a7197118cae51ed3886329cce017d
-    projectPath: Library\Artifacts\98\988a7197118cae51ed3886329cce017d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: MQ9\Library\Artifacts\9a\9a5f844aa37796bf5ad276f3c47783ca
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\9a\9a5f844aa37796bf5ad276f3c47783ca
     projectPath: Library\Artifacts\9a\9a5f844aa37796bf5ad276f3c47783ca
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\9c\9c9fcaa2115f1db190eb7e14a1f582f3
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\9c\9c9fcaa2115f1db190eb7e14a1f582f3
-    projectPath: Library\Artifacts\9c\9c9fcaa2115f1db190eb7e14a1f582f3
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\a2\a2582c27270fcb8de89fe48e19e15972
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\a2\a2582c27270fcb8de89fe48e19e15972
-    projectPath: Library\Artifacts\a2\a2582c27270fcb8de89fe48e19e15972
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\a9\a9284cc7de9697692137a0d9d3de1cbb
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\a9\a9284cc7de9697692137a0d9d3de1cbb
-    projectPath: Library\Artifacts\a9\a9284cc7de9697692137a0d9d3de1cbb
+  - path: MQ9\Library\Artifacts\e4\e47d4244270c039f3e4845744990620c
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\e4\e47d4244270c039f3e4845744990620c
+    projectPath: Library\Artifacts\e4\e47d4244270c039f3e4845744990620c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\ad\ad93b10368356e49c04f0906ecef5b46
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\ad\ad93b10368356e49c04f0906ecef5b46
-    projectPath: Library\Artifacts\ad\ad93b10368356e49c04f0906ecef5b46
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\b8\b8db7c6bbefb360e843778c2f90c9edd
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\b8\b8db7c6bbefb360e843778c2f90c9edd
-    projectPath: Library\Artifacts\b8\b8db7c6bbefb360e843778c2f90c9edd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\c0\c059688154ea098ea1f2212fc8ae723a
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\c0\c059688154ea098ea1f2212fc8ae723a
-    projectPath: Library\Artifacts\c0\c059688154ea098ea1f2212fc8ae723a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\c6\c6545e6bc7373429bd38e326a0ed83ef
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\c6\c6545e6bc7373429bd38e326a0ed83ef
-    projectPath: Library\Artifacts\c6\c6545e6bc7373429bd38e326a0ed83ef
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\c8\c86e5acb5689b88c5fc87481d34b1c40
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\c8\c86e5acb5689b88c5fc87481d34b1c40
-    projectPath: Library\Artifacts\c8\c86e5acb5689b88c5fc87481d34b1c40
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\c8\c8ff3e03ba69c2d0e68995dc2c21123e
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\c8\c8ff3e03ba69c2d0e68995dc2c21123e
-    projectPath: Library\Artifacts\c8\c8ff3e03ba69c2d0e68995dc2c21123e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\c9\c9fbc070953114b5f5e60116cc594a6e
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\c9\c9fbc070953114b5f5e60116cc594a6e
-    projectPath: Library\Artifacts\c9\c9fbc070953114b5f5e60116cc594a6e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\ce\ce2b463568607a1208b17cb97c93e77b
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\ce\ce2b463568607a1208b17cb97c93e77b
-    projectPath: Library\Artifacts\ce\ce2b463568607a1208b17cb97c93e77b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\d3\d3ae9419fadee3734704bbbed0206d62
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\d3\d3ae9419fadee3734704bbbed0206d62
-    projectPath: Library\Artifacts\d3\d3ae9419fadee3734704bbbed0206d62
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\da\da714092051178b0a2634dd38c81813a
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\da\da714092051178b0a2634dd38c81813a
-    projectPath: Library\Artifacts\da\da714092051178b0a2634dd38c81813a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\de\de428717b709eff3cfbc78d725b0ffad
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\de\de428717b709eff3cfbc78d725b0ffad
-    projectPath: Library\Artifacts\de\de428717b709eff3cfbc78d725b0ffad
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\e4\e4aecc8a3df2ca628ffd2ec34171804b
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\e4\e4aecc8a3df2ca628ffd2ec34171804b
-    projectPath: Library\Artifacts\e4\e4aecc8a3df2ca628ffd2ec34171804b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\e6\e6c126ce57a6bf7298a597c8fa04bc65
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\e6\e6c126ce57a6bf7298a597c8fa04bc65
-    projectPath: Library\Artifacts\e6\e6c126ce57a6bf7298a597c8fa04bc65
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\e7\e7a02d0687ad8443c403a28dc3842373
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\e7\e7a02d0687ad8443c403a28dc3842373
-    projectPath: Library\Artifacts\e7\e7a02d0687ad8443c403a28dc3842373
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\eb\eb27f6fb1c36471524ffef492f73517f
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\eb\eb27f6fb1c36471524ffef492f73517f
-    projectPath: Library\Artifacts\eb\eb27f6fb1c36471524ffef492f73517f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\Artifacts\fb\fb8c14b0e8e153198249fa85865586ed
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\fb\fb8c14b0e8e153198249fa85865586ed
-    projectPath: Library\Artifacts\fb\fb8c14b0e8e153198249fa85865586ed
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\fd\fda497cdf699076c1bf97c2c49ae1a68
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\fd\fda497cdf699076c1bf97c2c49ae1a68
-    projectPath: Library\Artifacts\fd\fda497cdf699076c1bf97c2c49ae1a68
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\ff\ffd74c10ba32af284762ec4817d70957
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\ff\ffd74c10ba32af284762ec4817d70957
-    projectPath: Library\Artifacts\ff\ffd74c10ba32af284762ec4817d70957
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: MQ9\Library\EditorInstance.json
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -562,6 +94,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: MQ9\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: MQ9\Library\SceneVisibilityState.asset
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -571,6 +109,36 @@ MonoBehaviour:
   - path: MQ9\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\ShaderCache\c\c7c9f33e3ba52eb240e7a1f51940a7db.bin
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\ShaderCache\c\c7c9f33e3ba52eb240e7a1f51940a7db.bin
+    projectPath: Library\ShaderCache\c\c7c9f33e3ba52eb240e7a1f51940a7db.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\c\cb89a6b2e260b9a6b91737431081032e.bin
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\ShaderCache\c\cb89a6b2e260b9a6b91737431081032e.bin
+    projectPath: Library\ShaderCache\c\cb89a6b2e260b9a6b91737431081032e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -604,21 +172,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: MQ9\Temp\UnityTempFile-3dc75c597d05c214ea5253af2c093e23
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Temp\UnityTempFile-3dc75c597d05c214ea5253af2c093e23
-    projectPath: Temp\UnityTempFile-3dc75c597d05c214ea5253af2c093e23
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Temp\UnityTempFile-cb6eeea4a8bbf264ea5d233656a54329
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Temp\UnityTempFile-cb6eeea4a8bbf264ea5d233656a54329
-    projectPath: Temp\UnityTempFile-cb6eeea4a8bbf264ea5d233656a54329
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Temp\UnityTempFile-db5d4ecff71a6404c9293c2ceb7c2bde
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Temp\UnityTempFile-db5d4ecff71a6404c9293c2ceb7c2bde
-    projectPath: Temp\UnityTempFile-db5d4ecff71a6404c9293c2ceb7c2bde
+  - path: MQ9\Temp\UnityTempFile-785761be78ae6964f986a3e8c8b212f8
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Temp\UnityTempFile-785761be78ae6964f986a3e8c8b212f8
+    projectPath: Temp\UnityTempFile-785761be78ae6964f986a3e8c8b212f8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
