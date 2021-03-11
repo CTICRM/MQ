@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-03-09T16:21:33.679-06:00
-  initializedAtString: 2021-03-09T08:01:56.464-06:00
+  lastUpdatedAtString: 2021-03-11T16:14:55.634-06:00
+  initializedAtString: 2021-03-11T07:49:58.241-06:00
   entries:
   - path: MQ9\Assets\Scenes\Main.unity
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scenes\Main.unity
@@ -22,36 +22,42 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Assets\Scripts\H264AdvancedControls.cs
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\H264AdvancedControls.cs
-    projectPath: Assets\Scripts\H264AdvancedControls.cs
+  - path: MQ9\Assets\Scripts\PresetsConfig.cs
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\PresetsConfig.cs
+    projectPath: Assets\Scripts\PresetsConfig.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MQ9\Assets\Scripts\PresetsConfig.cs.meta
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Assets\Scripts\PresetsConfig.cs.meta
+    projectPath: Assets\Scripts\PresetsConfig.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: MQ9\Library\ArtifactDB
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Library\Artifacts\8d\8d3cdaa020dfaf37896ea439932ee160
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\8d\8d3cdaa020dfaf37896ea439932ee160
-    projectPath: Library\Artifacts\8d\8d3cdaa020dfaf37896ea439932ee160
+  - path: MQ9\Library\Artifacts\c8\c86e5acb5689b88c5fc87481d34b1c40
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\c8\c86e5acb5689b88c5fc87481d34b1c40
+    projectPath: Library\Artifacts\c8\c86e5acb5689b88c5fc87481d34b1c40
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\9a\9a5f844aa37796bf5ad276f3c47783ca
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\9a\9a5f844aa37796bf5ad276f3c47783ca
-    projectPath: Library\Artifacts\9a\9a5f844aa37796bf5ad276f3c47783ca
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: MQ9\Library\Artifacts\e4\e47d4244270c039f3e4845744990620c
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\e4\e47d4244270c039f3e4845744990620c
-    projectPath: Library\Artifacts\e4\e47d4244270c039f3e4845744990620c
+  - path: MQ9\Library\Artifacts\d5\d5f88ef9e0aca4e3b9e1f51a0788e7dd
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\Artifacts\d5\d5f88ef9e0aca4e3b9e1f51a0788e7dd
+    projectPath: Library\Artifacts\d5\d5f88ef9e0aca4e3b9e1f51a0788e7dd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: MQ9\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: MQ9\Library\EditorInstance.json
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -112,36 +118,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MQ9\Library\ShaderCache\c\c7c9f33e3ba52eb240e7a1f51940a7db.bin
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\ShaderCache\c\c7c9f33e3ba52eb240e7a1f51940a7db.bin
-    projectPath: Library\ShaderCache\c\c7c9f33e3ba52eb240e7a1f51940a7db.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\ShaderCache\c\cb89a6b2e260b9a6b91737431081032e.bin
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\ShaderCache\c\cb89a6b2e260b9a6b91737431081032e.bin
-    projectPath: Library\ShaderCache\c\cb89a6b2e260b9a6b91737431081032e.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MQ9\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: MQ9\Library\SourceAssetDB
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -169,12 +145,6 @@ MonoBehaviour:
   - path: MQ9\Temp\UnityLockfile
     fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: MQ9\Temp\UnityTempFile-785761be78ae6964f986a3e8c8b212f8
-    fullPath: C:\Users\tamcdaniel\Desktop\MQ\MQ\MQ9\Temp\UnityTempFile-785761be78ae6964f986a3e8c8b212f8
-    projectPath: Temp\UnityTempFile-785761be78ae6964f986a3e8c8b212f8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
