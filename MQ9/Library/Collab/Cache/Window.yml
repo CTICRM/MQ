@@ -13,8 +13,433 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - Assets/Fonts.meta
+    - Assets/Fonts/Misc-Fixed-Modified.ttf.meta
+    - Assets/Fonts/OpenSans-Bold.ttf.meta
+    - Assets/Fonts/OpenSans-Regular.ttf.meta
+    - Assets/Fonts/cour.ttf.meta
+    - Assets/Images.meta
+    - Assets/Images/2408Hud3.png.meta
+    - Assets/Images/ErrorIcon.png
+    - Assets/Images/ErrorIcon.png.meta
+    - Assets/Images/MTSHud.png.meta
+    - Assets/Images/Nevada_TTR_Chart.png.meta
+    - Assets/Images/NoseCam.png
+    - Assets/Images/NoseCam.png.meta
+    - Assets/Images/PhotoShop.meta
+    - Assets/Images/PhotoShop/Button.png
+    - Assets/Images/PhotoShop/Button.png.meta
+    - Assets/Images/PhotoShop/Circle.png.meta
+    - Assets/Images/PhotoShop/CommandScreenSelected.png.meta
+    - Assets/Images/PhotoShop/HUDSelected.png.meta
+    - Assets/Images/PhotoShop/MFDSelected.png.meta
+    - Assets/Images/PhotoShop/MTS ELP.png
+    - Assets/Images/PhotoShop/MTS ELP.png.meta
+    - Assets/Images/PhotoShop/MTS Expos.png
+    - Assets/Images/PhotoShop/MTS Expos.png.meta
+    - Assets/Images/PhotoShop/MTS FCBS.png
+    - Assets/Images/PhotoShop/MTS FCBS.png.meta
+    - Assets/Images/PhotoShop/MTS Gain.png
+    - Assets/Images/PhotoShop/MTS Gain.png.meta
+    - Assets/Images/PhotoShop/MTS PRF ID.png
+    - Assets/Images/PhotoShop/MTS PRF ID.png.meta
+    - Assets/Images/PhotoShop/MTS PRF.png
+    - Assets/Images/PhotoShop/MTS PRF.png.meta
+    - Assets/Images/PhotoShop/MTS Rate.png
+    - Assets/Images/PhotoShop/MTS Rate.png.meta
+    - Assets/Images/PhotoShop/MTS Split.png
+    - Assets/Images/PhotoShop/MTS Split.png.meta
+    - Assets/Images/PhotoShop/MTSButton Big.png
+    - Assets/Images/PhotoShop/MTSButton Big.png.meta
+    - Assets/Images/PhotoShop/MTSButton Default.png
+    - Assets/Images/PhotoShop/MTSButton Default.png.meta
+    - Assets/Images/PhotoShop/MenuButton.png
+    - Assets/Images/PhotoShop/MenuButton.png.meta
+    - Assets/Images/PhotoShop/PilotSOButton.png.meta
+    - Assets/Images/PhotoShop/SMS Images.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Down Arrow.png
+    - Assets/Images/PhotoShop/SMS Images/SMS Down Arrow.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Layout.png
+    - Assets/Images/PhotoShop/SMS Images/SMS Layout.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Long Button Blue.png
+    - Assets/Images/PhotoShop/SMS Images/SMS Long Button Blue.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Long Button.png
+    - Assets/Images/PhotoShop/SMS Images/SMS Long Button.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Small Button Blue.png
+    - Assets/Images/PhotoShop/SMS Images/SMS Small Button Blue.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Small Button.png
+    - Assets/Images/PhotoShop/SMS Images/SMS Small Button.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Status Lights.png
+    - Assets/Images/PhotoShop/SMS Images/SMS Status Lights.png.meta
+    - Assets/Images/PhotoShop/SMS Images/SMS Up Arrow Button.png
+    - Assets/Images/PhotoShop/SMS Images/SMS Up Arrow Button.png.meta
+    - Assets/Images/PhotoShop/SMSSelected.png.meta
+    - Assets/Images/PhotoShop/Square.png
+    - Assets/Images/PhotoShop/Square.png.meta
+    - Assets/Images/PhotoShop/StatusScreenSelected.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Slider Bar.png
+    - Assets/Images/PhotoShop/Tracker Menus/Slider Bar.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Slider Handle.png
+    - Assets/Images/PhotoShop/Tracker Menus/Slider Handle.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Button.png
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Button.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Grey.png
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Grey.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Popup Bar.png
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Popup Bar.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Sub Bar.png
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Sub Bar.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Sub Box.png
+    - Assets/Images/PhotoShop/Tracker Menus/Tracker Sub Box.png.meta
+    - Assets/Images/PhotoShop/Tracker Menus/world-button.png
+    - Assets/Images/PhotoShop/Tracker Menus/world-button.png.meta
+    - Assets/Images/PhotoShop/TrackerSelected.png.meta
+    - Assets/Images/QuestionIcon.png
+    - Assets/Images/QuestionIcon.png.meta
+    - Assets/Images/TopWhite.png.meta
+    - Assets/Images/White.png.meta
+    - Assets/Images/arrow.png.meta
+    - Assets/Images/compass.png.meta
+    - Assets/Images/display-button-01.png.meta
+    - Assets/Images/display-button-02.png.meta
+    - Assets/Images/display-button-03.png.meta
+    - Assets/Images/display-button-04.png.meta
+    - Assets/Images/display-button-05.png.meta
+    - Assets/Images/display-button-06.png.meta
+    - Assets/Images/hud-bg.png.meta
+    - Assets/Images/hud-graphic-cursorW.png.meta
+    - Assets/Images/logoFrame.png
+    - Assets/Images/logoFrame.png.meta
+    - Assets/Images/trk-cursor-4.png.meta
+    - Assets/Images/trk_tbtnBrt.png.meta
+    - Assets/Images/trk_tbtnCircleLoiter.png.meta
+    - Assets/Images/trk_tbtnDim.png.meta
+    - Assets/Images/trk_tbtnDirectTo.png
+    - Assets/Images/trk_tbtnDirectTo.png.meta
+    - Assets/Images/trk_tbtnDrawCircle.png.meta
+    - Assets/Images/trk_tbtnDrawPoly.png.meta
+    - Assets/Images/trk_tbtnDrawTxt.png.meta
+    - Assets/Images/trk_tbtnEMiss.png.meta
+    - Assets/Images/trk_tbtnFig8Loit.png.meta
+    - Assets/Images/trk_tbtnGoto.png.meta
+    - Assets/Images/trk_tbtnHexLoiter.png.meta
+    - Assets/Images/trk_tbtnOPMiss.png.meta
+    - Assets/Images/trk_tbtnPanDwn.png.meta
+    - Assets/Images/trk_tbtnPanLt.png.meta
+    - Assets/Images/trk_tbtnPanRt.png.meta
+    - Assets/Images/trk_tbtnPanUp.png.meta
+    - Assets/Images/trk_tbtnPtLoit.png.meta
+    - Assets/Images/trk_tbtnRLEM.png.meta
+    - Assets/Images/trk_tbtnRLOP.png.meta
+    - Assets/Images/trk_tbtnRcTrkLoit.png.meta
+    - Assets/Images/trk_tbtnRtnToMsn.png.meta
+    - Assets/Images/trk_tbtnSel.png.meta
+    - Assets/Images/trk_tbtnZoomIn.png.meta
+    - Assets/Images/trk_tbtnZoomOut.png.meta
+    - Assets/Materials.meta
+    - Assets/Materials/Black Background.mat.meta
+    - Assets/Materials/Bottom Config Background.mat
+    - Assets/Materials/Bottom Config Background.mat.meta
+    - Assets/Materials/New Material.mat
+    - Assets/Materials/New Material.mat.meta
+    - Assets/Materials/Sidebar.mat
+    - Assets/Materials/Sidebar.mat.meta
+    - Assets/Materials/Top Button Background.mat
+    - Assets/Materials/Top Button Background.mat.meta
+    - Assets/Materials/Top Config Background.mat
+    - Assets/Materials/Top Config Background.mat.meta
+    - Assets/Materials/Tracker Background.mat
+    - Assets/Materials/Tracker Background.mat.meta
+    - Assets/Plugins.meta
+    - Assets/Plugins/GitHub.meta
+    - Assets/Plugins/GitHub/Editor.meta
+    - Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+    - Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+    - Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+    - Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+    - Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+    - Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+    - Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+    - Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+    - Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+    - Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+    - Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+    - Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+    - Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+    - Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+    - Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
+    - Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
+    - Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+    - Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+    - Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+    - Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+    - Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+    - Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+    - Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+    - Assets/Plugins/GitHub/Editor/System.Threading.dll
+    - Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+    - Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+    - Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+    - Assets/Plugins/GitHub/Editor/big-logo@2x.png
+    - Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+    - Assets/Plugins/GitHub/Editor/credits.txt
+    - Assets/Plugins/GitHub/Editor/credits.txt.meta
+    - Assets/Plugins/GitHub/Editor/eula.txt
+    - Assets/Plugins/GitHub/Editor/eula.txt.meta
+    - Assets/Plugins/GitHub/Editor/libsfw.bundle
+    - Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+    - Assets/Plugins/GitHub/Editor/libsfw.so
+    - Assets/Plugins/GitHub/Editor/libsfw.so.meta
+    - Assets/Plugins/GitHub/Editor/sfw.net.dll
+    - Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+    - Assets/Plugins/GitHub/Editor/x64.meta
+    - Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+    - Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+    - Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+    - Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+    - Assets/Plugins/GitHub/Editor/x86.meta
+    - Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+    - Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+    - Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+    - Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+    - Assets/Prefab.meta
+    - Assets/Prefab/Command Container.prefab
+    - Assets/Prefab/Command Container.prefab.meta
+    - Assets/Prefab/DLStatusObject.prefab
+    - Assets/Prefab/DLStatusObject.prefab.meta
+    - Assets/Prefab/GameObject 1.prefab
+    - Assets/Prefab/GameObject 1.prefab.meta
+    - Assets/Prefab/GameObject.prefab
+    - Assets/Prefab/GameObject.prefab.meta
+    - Assets/Prefab/HUD Prefab.prefab
+    - Assets/Prefab/HUD Prefab.prefab.meta
+    - Assets/Prefab/Map Buttons Section 3.prefab
+    - Assets/Prefab/Map Buttons Section 3.prefab.meta
+    - Assets/Prefab/Map Buttons Section 4.prefab
+    - Assets/Prefab/Map Buttons Section 4.prefab.meta
+    - Assets/Prefab/Pilot Button.prefab
+    - Assets/Prefab/Pilot Button.prefab.meta
+    - Assets/Prefab/Popup Small.prefab
+    - Assets/Prefab/Popup Small.prefab.meta
+    - Assets/Prefab/Popup.prefab
+    - Assets/Prefab/Popup.prefab.meta
+    - Assets/Prefab/SMS Active.prefab
+    - Assets/Prefab/SMS Active.prefab.meta
+    - Assets/Prefab/SO Button.prefab
+    - Assets/Prefab/SO Button.prefab.meta
+    - Assets/Prefab/Sidebar Canvas 1.prefab
+    - Assets/Prefab/Sidebar Canvas 1.prefab.meta
+    - Assets/Prefab/Sidebar Canvas.prefab
+    - Assets/Prefab/Sidebar Canvas.prefab.meta
+    - Assets/Prefab/Sidebar Image.prefab
+    - Assets/Prefab/Sidebar Image.prefab.meta
+    - Assets/Prefab/Tracker.meta
+    - Assets/Prefab/TrackerPop.prefab
+    - Assets/Prefab/TrackerPop.prefab.meta
+    - Assets/Prefab/VitFieldPrefab 1.prefab
+    - Assets/Prefab/VitFieldPrefab 1.prefab.meta
+    - Assets/Prefab/VitFieldPrefab.prefab
+    - Assets/Prefab/VitFieldPrefab.prefab.meta
+    - Assets/Resources.meta
+    - Assets/Resources/working_vits.json
+    - Assets/Resources/working_vits.json.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Josh 3-1.unity
+    - Assets/Scenes/Josh 3-1.unity.meta
+    - Assets/Scenes/Main.unity
+    - Assets/Scenes/Main.unity.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scenes/SampleScene2.unity
+    - Assets/Scenes/SampleScene2.unity.meta
+    - Assets/Scenes/Tanner.unity
+    - Assets/Scenes/Tanner.unity.meta
+    - Assets/Scenes/Updated.unity
+    - Assets/Scenes/Updated.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/ARC210Control.cs
+    - Assets/Scripts/ARC210Control.cs.meta
+    - Assets/Scripts/BrightenDimImage.cs
+    - Assets/Scripts/BrightenDimImage.cs.meta
+    - Assets/Scripts/CollectionList.cs
+    - Assets/Scripts/CollectionList.cs.meta
+    - Assets/Scripts/ColorChange.cs
+    - Assets/Scripts/ColorChange.cs.meta
+    - Assets/Scripts/CommandScreen.meta
+    - Assets/Scripts/CommandScreen/VitData.cs
+    - Assets/Scripts/CommandScreen/VitData.cs.meta
+    - Assets/Scripts/CommandScreen/VitField.cs
+    - Assets/Scripts/CommandScreen/VitField.cs.meta
+    - Assets/Scripts/CommandScreen/VitLoader.cs
+    - Assets/Scripts/CommandScreen/VitLoader.cs.meta
+    - Assets/Scripts/DVRSettings.cs
+    - Assets/Scripts/DVRSettings.cs.meta
+    - Assets/Scripts/DatalinkDropdownHandler.cs
+    - Assets/Scripts/DatalinkDropdownHandler.cs.meta
+    - Assets/Scripts/DismissDialogs.cs
+    - Assets/Scripts/DismissDialogs.cs.meta
+    - Assets/Scripts/Drag.cs.meta
+    - Assets/Scripts/DragMap.cs
+    - Assets/Scripts/DragMap.cs.meta
+    - Assets/Scripts/EncoderBasicControls.cs
+    - Assets/Scripts/EncoderBasicControls.cs.meta
+    - Assets/Scripts/EnerdyneVideoControls.cs
+    - Assets/Scripts/EnerdyneVideoControls.cs.meta
+    - Assets/Scripts/FileDropdownHandler.cs
+    - Assets/Scripts/FileDropdownHandler.cs.meta
+    - Assets/Scripts/H264AdvancedControls.cs
+    - Assets/Scripts/H264AdvancedControls.cs.meta
+    - Assets/Scripts/KuSATCOMConfiguration.cs
+    - Assets/Scripts/KuSATCOMConfiguration.cs.meta
+    - Assets/Scripts/LynxSARControls.cs
+    - Assets/Scripts/LynxSARControls.cs.meta
+    - Assets/Scripts/MissionDropdownHandler.cs
+    - Assets/Scripts/MissionDropdownHandler.cs.meta
+    - Assets/Scripts/MissionEditor.cs
+    - Assets/Scripts/MissionEditor.cs.meta
+    - Assets/Scripts/MoveMap.cs
+    - Assets/Scripts/MoveMap.cs.meta
+    - Assets/Scripts/NavMode.cs
+    - Assets/Scripts/NavMode.cs.meta
+    - Assets/Scripts/PayloadsDropdownHandler.cs
+    - Assets/Scripts/PayloadsDropdownHandler.cs.meta
+    - Assets/Scripts/PopupMechanics.cs
+    - Assets/Scripts/PopupMechanics.cs.meta
+    - Assets/Scripts/PresetsConfig.cs
+    - Assets/Scripts/PresetsConfig.cs.meta
+    - Assets/Scripts/SatelliteA.cs
+    - Assets/Scripts/SatelliteA.cs.meta
+    - Assets/Scripts/SatelliteB.cs
+    - Assets/Scripts/SatelliteB.cs.meta
+    - Assets/Scripts/SatelliteC.cs
+    - Assets/Scripts/SatelliteC.cs.meta
+    - Assets/Scripts/Scale.cs
+    - Assets/Scripts/Scale.cs.meta
+    - Assets/Scripts/ShowHideCompass.cs
+    - Assets/Scripts/ShowHideCompass.cs.meta
+    - Assets/Scripts/ShowSliderValue.cs
+    - Assets/Scripts/ShowSliderValue.cs.meta
+    - Assets/Scripts/SimpleHide.cs
+    - Assets/Scripts/SimpleHide.cs.meta
+    - Assets/Scripts/VideoMultiplexer.cs
+    - Assets/Scripts/VideoMultiplexer.cs.meta
+    - Assets/Scripts/ViewDropdownHandler.cs
+    - Assets/Scripts/ViewDropdownHandler.cs.meta
+    - Assets/Scripts/WaypointEditor.cs
+    - Assets/Scripts/WaypointEditor.cs.meta
+    - Assets/Scripts/Zoom.cs
+    - Assets/Scripts/Zoom.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Misc-Fixed-Modified SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Misc-Fixed-Modified SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/cour SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/cour SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
