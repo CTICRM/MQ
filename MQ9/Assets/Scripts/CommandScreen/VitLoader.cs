@@ -1,9 +1,11 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using TMPro;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
+using Random = UnityEngine.Random;
 
 public class VitLoader : MonoBehaviour
 {
@@ -17,7 +19,7 @@ public class VitLoader : MonoBehaviour
         set
         {
             // Whenever we change the current vit we need to reload the screen
-            currentVit = value;
+            currentVit = value;            
             reloadCommandScreenVits();
         }
     }
@@ -26,16 +28,52 @@ public class VitLoader : MonoBehaviour
         get { return currentVitIndex; }
         set
         {
+            // Clear special screens
+            Vit17Panel.SetActive(false);
+            Vit18Panel.SetActive(false);
+            Vit19Panel.SetActive(false);
+            // Make sure our value has a min and max value
             currentVitIndex = Mathf.Clamp(value, 0, 99);
+            // Update the selector label
             VitIndexLabel.GetComponent<TextMeshProUGUI>().text = currentVitIndex.ToString();
-            CurrentVit = AllVits[currentVitIndex];
+
+            // If we have selected vits 17, 18, or 19, activate their panel and deactivate the main panel
+            if(currentVitIndex >= 17 && currentVitIndex <= 19)
+            {
+                CanvasPanel.SetActive(false);
+                if (currentVitIndex == 17)
+                    Vit17Panel.SetActive(true);
+                if (currentVitIndex == 18)
+                    Vit18Panel.SetActive(true);
+                if (currentVitIndex == 19)
+                    Vit19Panel.SetActive(true);
+            }
+            else
+            {                
+                CanvasPanel.SetActive(true);
+
+                // We need to catch an exception here because some screens are missing
+                try
+                {
+                    CurrentVit = AllVits[currentVitIndex];
+                }
+                catch (Exception)
+                {
+                    CanvasPanel.SetActive(false);
+                }
+                
+            }
+            
         }
     }
     public VitField field;
 
     public GameObject CanvasPanel;             // This is the panel where we will dynamically instantiate labels
+    public GameObject Vit17Panel;
+    public GameObject Vit18Panel;
+    public GameObject Vit19Panel;
     public GameObject VitFieldLabel;             // This is the label prefab we are going to instantiate
-    public GameObject VitIndexLabel;    // This is the index label we are showing temporarily to show the selected vit
+    public GameObject VitIndexLabel;           // This is the index label we are showing temporarily to show the selected vit
 
     void Start()
     {
